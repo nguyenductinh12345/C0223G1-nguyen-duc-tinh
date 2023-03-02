@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-02T07:28:08.910Z" agent="5.0 (Macintosh)" etag="KXmT7ZD_MCMRNxAapPUW" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-02T07:44:54.449Z" agent="5.0 (Macintosh)" etag="PhEa2n9eBWfFMAuQDebh" version="20.8.23" type="github">
   <diagram name="Trang-1" id="nFw3_H2FPNceqaDyUtAC">
     <mxGraphModel dx="1004" dy="560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -25,6 +25,9 @@
         <mxCell id="ybIOzXLP6bv3vpW7ntqj-4" value="N &amp;gt;= 75" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="180" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="ybIOzXLP6bv3vpW7ntqj-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="ybIOzXLP6bv3vpW7ntqj-6" target="ybIOzXLP6bv3vpW7ntqj-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ybIOzXLP6bv3vpW7ntqj-6" value="loai A" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="190" width="120" height="60" as="geometry" />
         </mxCell>
@@ -36,6 +39,11 @@
         </mxCell>
         <mxCell id="ybIOzXLP6bv3vpW7ntqj-8" value="&lt;div&gt;N &amp;gt;= 60&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="290" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ybIOzXLP6bv3vpW7ntqj-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="ybIOzXLP6bv3vpW7ntqj-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="400" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="ybIOzXLP6bv3vpW7ntqj-10" value="loai B" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="490" y="300" width="120" height="60" as="geometry" />
@@ -49,6 +57,9 @@
         <mxCell id="ybIOzXLP6bv3vpW7ntqj-12" value="N &amp;gt;= 45" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="400" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="ybIOzXLP6bv3vpW7ntqj-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="ybIOzXLP6bv3vpW7ntqj-14" target="ybIOzXLP6bv3vpW7ntqj-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ybIOzXLP6bv3vpW7ntqj-14" value="loai C" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="410" width="120" height="60" as="geometry" />
         </mxCell>
@@ -61,6 +72,9 @@
         <mxCell id="ybIOzXLP6bv3vpW7ntqj-16" value="&lt;div&gt;N &amp;gt;= 35&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="510" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="ybIOzXLP6bv3vpW7ntqj-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="ybIOzXLP6bv3vpW7ntqj-18" target="ybIOzXLP6bv3vpW7ntqj-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ybIOzXLP6bv3vpW7ntqj-18" value="loai D" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="520" width="120" height="60" as="geometry" />
         </mxCell>
@@ -70,10 +84,18 @@
         <mxCell id="ybIOzXLP6bv3vpW7ntqj-20" value="N &amp;lt; 35" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="620" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="ybIOzXLP6bv3vpW7ntqj-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="ybIOzXLP6bv3vpW7ntqj-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="490" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="720" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ybIOzXLP6bv3vpW7ntqj-22" value="loai E" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="630" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ybIOzXLP6bv3vpW7ntqj-24" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;Begin &lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&amp;nbsp;input N&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&amp;nbsp;If N &amp;gt;= 75&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&amp;nbsp;&amp;nbsp; display &quot;loai A&quot;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&amp;nbsp;else If N &amp;gt;= 60&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;disblay &quot;loai B&quot;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;else If N &amp;gt;= 45&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;display &quot;loai C&quot;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;else If N &amp;gt;= 35&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;display &quot;loai D&quot;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;else If N &amp;lt; 35&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; display &quot;loai E&quot;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&amp;nbsp;&amp;nbsp; end&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ybIOzXLP6bv3vpW7ntqj-24" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;Begin &lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&amp;nbsp;input N&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&amp;nbsp;If N &amp;gt;= 75&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&amp;nbsp;&amp;nbsp; display &quot;loai A&quot;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&amp;nbsp;else If N &amp;gt;= 60&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;disblay &quot;loai B&quot;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;else If N &amp;gt;= 45&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;display &quot;loai C&quot;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;else If N &amp;gt;= 35&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;display &quot;loai D&quot;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;else If N &amp;lt; 35&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; display &quot;loai E&quot;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&amp;nbsp;&amp;nbsp; end If&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&amp;nbsp;&amp;nbsp; end If&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&amp;nbsp;&amp;nbsp; end If&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&amp;nbsp;&amp;nbsp; End If&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&amp;nbsp;end If&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;END&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry y="20" width="320" height="580" as="geometry" />
         </mxCell>
         <mxCell id="ybIOzXLP6bv3vpW7ntqj-25" value="end" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
