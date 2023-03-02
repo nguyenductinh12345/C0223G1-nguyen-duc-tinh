@@ -1,0 +1,16 @@
+BEGIN
+    INPUT A
+    INPUT B
+    INPUT C
+    IF A > B AND A > C 
+        DISPLAY "A lon nhat"
+    ELSE
+        IF B > C
+            DISPLAY "B lon nhat"
+        ELSE 
+            DISPLAY "C lon nhat"
+        END IF
+    END IF
+
+
+END

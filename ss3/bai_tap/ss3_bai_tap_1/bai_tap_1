@@ -1,0 +1,7 @@
+BEGIN
+    INPUT diem_toan
+    INPUT diem_ly
+    INPUT diem_hoa
+    A = (diem_hoa + diem_ly + diem_toan)/ 3;
+    display A
+END
