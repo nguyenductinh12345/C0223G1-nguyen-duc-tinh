@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+        <p>
+            <input type="text"id="so1">
+            <input type="text" id="so2">
+        </p>
+
+     <p>
+         <button type="button" id="phepCong" onclick="cong()">Additiopn(+)</button>
+        <button type="button" id="phepTru" onclick="tru()">Subtraction(-)</button>
+        <button type="button" id="phepNhan" onclick="nhan()">Multiplication(*)</button>
+         <button type="button" id="phepChia" onclick="chia()">Division(/)</button>
+     </p>
+        <p id="ketQua">ketQua</p>
+<script>
+    let so1 = document.getElementById("so1").value*1;
+    let so2 = document.getElementById("so2").value*1;
+    let ketQua;
+    function cong() {
+        ketQua = "ketQua"+ (so1 + so2);
+        document.getElementById("ketQua").innerHTML = ketQua;
+    }
+    function  tru(){
+        ketQua= "ketQua"+(so1 - so2)
+        document.getElementById("ketQua").innerHTML= ketQua;
+    }
+    function nhan(){
+      ketQua= "ketQua"+(so1*so2)
+      document.getElementById("ketQua").innerHTML= ketQua;
+    }
+    function chia(){
+        ketQua="ketQua"+(so1/so2)
+        document.getElementById("ketQua").innerHTML=ketQua;
+    }
+
+</script>
+
+</body>
+</html>
