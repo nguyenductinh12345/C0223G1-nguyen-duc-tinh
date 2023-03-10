@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+  <h1>Tính số ngày trong tháng</h1><br>
+  <input type="number" name="" id="thang"placeholder="nhập tháng"><button onclick="tinh_toan()" type="button" id="kiem_tra">Kiểm tra</button>
+  <br><br>
+<label id="ket_qua"></label>
+<script>
+  function tinh_toan(){
+    let thang=document.getElementById("thang").value*1;
+    let ketQua=document.getElementById("ket_qua");
+    switch (thang){
+      case 1:
+      case 3:
+      case 5:
+      case 7:
+      case 8:
+      case 10:
+      case 12:
+        ketQua.innerHTML=("tháng có 31 ngày");
+        break;
+      case 2:
+        ketQua.innerHTML=("tháng có 28 hoặc 29 ngày");
+        break;
+      case 4:
+      case 6:
+      case 9:
+      case 11:
+        ketQua.innerHTML=("tháng có 30 ngày");
+
+    }
+  }
+</script>
+
+</body>
+</html>

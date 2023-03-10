@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Bảng tính giá điện</h1><br>
+<input name="" type="number" id="soDien" placeholder="Số ký điện đã dùng">
+<button onclick="kiemTra()" type="button" id="kiemTra">Kiểm tra</button><br><br>
+<label id="giaTien"></label>
+<script>
+    function kiemTra() {
+    let kyDien = document.getElementById("soDien").value * 1;
+    let giaTien = document.getElementById("giaTien");
+    if (kyDien > 0 && kyDien <= 50) {
+        giaTien.innerHTML = ("Tiền điện là :" + (kyDien * 1500)+ "VNĐ");
+    } else if (kyDien <= 100) {
+        giaTien.innerHTML = ("Tiền điện là :" + (kyDien * 1650)+ "VNĐ");
+    } else if (kyDien <= 150) {
+        giaTien.innerHTML = ("Tiền điện là :" + (kyDien * 1750)+ "VNĐ");
+    } else {
+        giaTien.innerHTML = ("Tiền điện là :" + (kyDien * 1900)+ "VNĐ")
+    }
+}
+</script>
+</body>
+</html>

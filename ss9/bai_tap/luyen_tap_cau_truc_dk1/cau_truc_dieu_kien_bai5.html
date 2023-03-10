@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<label>Nhập điểm thi giữa kỳ : </label>
+<input name="" type="number" id="diem_giua_ky" ><br>
+<label>Nhập điểm thi cuối kỳ : </label>
+<input name="" type="number" id="diem_cuoi_ky" ><br>
+<button type="button" onclick="ketQua();">Kết quả :</button>
+<p id="ket_qua">Kết quả</p>
+<script>
+    function ketQua(){
+        let giuaKy = document.getElementById("diem_giua_ky").value * 1;
+        let cuoiKy = document.getElementById("diem_cuoi_ky").value * 1;
+        let ketQua = document.getElementById("ket_qua");
+        let trungBinh = (giuaKy+cuoiKy)/2;
+        if (trungBinh >= 80) {
+            ketQua.innerText ="loại giỏi";
+        } else if (trungBinh >= 65) {
+            ketQua.innerText ="loại khá";
+        } else if (trungBinh >= 50) {
+            ketQua.innerText ="loại trung bình";
+        } else {
+            ketQua.innerText="loại yếu";
+        }
+
+    }
+</script>
+</body>
+</html>

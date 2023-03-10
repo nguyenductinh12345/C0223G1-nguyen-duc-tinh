@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let soA=prompt("Nhập giá trị số A");
+    let soB=prompt("Nhập giá trị số B");
+    let soC=prompt("Nhập giá trị số C");
+    let denTa=((soB**2)-4*soA*soC);
+    let nghiemKep=(-(soB)/2*soA)
+    let x1=((-soB+Math.sqrt(denTa))/2*soA);
+    let x2=((-soB-Math.sqrt(denTa))/2*soA);
+    if (denTa<0){
+        alert("Phương trình vô nghiệm");
+    }
+    else if(denTa>0){
+        alert("Phương trình có hai nghiệm phân biệt X1= "+(x1)+"và nghiệm X2= "+(x2));
+    }
+    else{alert("Phương trình có nghiệm kép X1=X2="+nghiemKep)}
+</script>
+</body>
+</html>

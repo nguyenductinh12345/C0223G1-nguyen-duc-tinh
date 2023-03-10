@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+Lãi xuất hàng tháng là 1%<br>
+<label><input type="number" id="tienGui" placeholder="Nhập số tiền muốn gửi">Đơn vị VNĐ</label><br>
+<label><input type="number" id="thang" placeholder="Đơn vị tháng">Đơn vị tháng</label><br>
+<button type="button" id="xacNhan" onclick="xacNhan()">Xác nhận</button><br>
+<label id="tien"></label>
+<script>
+    function xacNhan() {
+        let tienGui = document.getElementById("tienGui").value * 1;
+        let thang = document.getElementById("thang").value * 1;
+        let laiXuat = 0.01;
+        let tien=document.getElementById("tien");
+        tien.innerHTML=("Tổng số tiền bạn nhận được là" + tienGui * (1 + laiXuat) ** thang)+"VNĐ"
+
+    }
+</script>
+</body>
+</html>

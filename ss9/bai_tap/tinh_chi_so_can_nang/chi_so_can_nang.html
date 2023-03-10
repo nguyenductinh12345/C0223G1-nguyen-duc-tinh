@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Tính chỉ số cân nặng</h1><br>
+<label for="can_nang">Nhập cân nặng: (Kg)</label>
+<input type="number" name="" id="can_nang"><br>
+<label for="chieu_cao">Nhập chiều cao: (m)</label>
+<input type="number" name="" id="chieu_cao"><br>
+<button onclick="kiem_tra()" type="button" id="kiem_tra">Kiểm tra</button><br>
+<label>Điểm BMI = </label> <label id="BMI"></label><br>
+<label>Kết quả : </label> <label id="ket_qua"></label>
+<script>
+    function kiem_tra() {
+        console.log("running");
+        let chieuCao = document.getElementById("chieu_cao").value*1;
+        let canNang = document.getElementById("can_nang").value*1;
+        let BMI = canNang/(chieuCao ** 2);
+        let ketQua=document.getElementById("ket_qua");
+        document.getElementById("BMI").innerHTML=BMI;
+        console.log(chieuCao, canNang, BMI);
+        if (BMI<18.5){
+            ketQua.innerHTML="<h1 style='color: red'>Quá gầy, ăn nhiều vào</h1>"+"<img src = 'https://i.pinimg.com/originals/3b/97/63/3b97635b6bd4a5bfc436fbd3908f05e0.gif' width='100' height= '100'>";
+        } else if (BMI<25){
+            ketQua.innerHTML="<h1 style='color: aquamarine'>Có vẻ ngon và xanh đấy</h1>";
+        } else if (BMI<30){
+            ketQua.innerHTML="<h1 style='color: darkorange'>Hơi mập nha má</h1>";
+        } else {
+            ketQua.innerHTML="<h1 style='color: red'>Mập cấp độ 7 cần giảm cân khẩn cấp</h1>" + "<img src = 'https://i.pinimg.com/originals/73/4d/11/734d11cc677595ce3c3e5e3bba02721f.gif' width='100' height= '100'>";
+        }
+    }
+
+</script>
+</body>
+</html>
