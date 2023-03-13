@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let x1=0;
+    let x2=1;
+    let x="";
+    console.log(x1)
+    console.log(x2)
+    for(let i=0;i<=17;i+=1){
+        x=x1+x2
+        x1=x2
+        x2=x
+        if(x%5==0){
+            break
+        }
+        console.log(x)
+    }
+    if(x%5==0){
+        console.log(x+"là số đầu tiên chia hết cho 5")
+    }
+
+</script>
+</body>
+</html>

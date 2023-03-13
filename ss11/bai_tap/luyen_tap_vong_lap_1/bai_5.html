@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let x1=1;
+    let x2=1;
+    let x=0;
+    let tong = 0;
+    console.log(x1)
+    console.log(x2)
+    for(let i=0 ;i<=17;i+=1) {
+        x = x1 + x2
+        x1 = x2
+        x2 = x
+        console.log(x)
+        tong += x;
+    }
+    alert("tổng giá trị là :"+tong)
+
+</script>
+</body>
+</html>
