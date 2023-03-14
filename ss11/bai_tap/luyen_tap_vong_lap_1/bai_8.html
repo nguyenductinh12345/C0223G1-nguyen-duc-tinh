@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="button" id="choi" value="Chơi" onclick="nhanvao()">
+<script>
+    function nhanvao() {
+        let so_3 = parseInt(prompt("nhập khoảng bạn muốn đoán"));
+        let so_1 = Math.floor(Math.random() * so_3);
+        console.log(so_1);
+        let so_2 = "";
+        for (let i = 0; i < 3; i++) {
+            so_2 = prompt("nhập số bạn đoán");
+            if (so_2 < so_1) {
+                alert("tăng lên");
+            } else if (so_2 > so_1) {
+                alert("giảm xuống");
+            } else {
+                alert("đúng rồi");
+                break;
+            }
+        }
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1 id="demo"></h1>
+<h1 id="sum"></h1>
+<h1 id="min"></h1>
+<h1 id="max"></h1>
+<script>
+    let i;
+    let j;
+    let c="";
+    for(i=1;i<6;i++){
+        for(j=1;j<=i;j++){
+           c+="*"
+        }c+="<br>"
+    }document.getElementById("demo").innerHTML=c
+
+    //--------------------
+    　let d="";
+    　for(i=5;i>=1;i--){
+        for(j=1;j<=i;j++){
+            d+="*"
+        }
+        d+="<br>"
+   　 }
+    document.getElementById("sum").innerHTML= d
+    //--------------------
+    let e="";
+    for(i=1;i<=6;i++){
+        for(j=1;j<=6;j++){
+            if(j<=(6-i)){
+                e+="&nbsp&nbsp"
+            }else{
+                e+="*"
+            }
+
+        }
+        e+="<br>"
+    }
+    document.getElementById("min").innerHTML= e
+//--------------------
+    let f="";
+    for(i=1;i<=6;i++){
+        for(j=1;j<=6;j++){
+            if(j<i){
+                f+="&nbsp&nbsp"
+            }else{
+                f+="*"
+            }
+
+        }
+        f+="<br>"
+    }
+    document.getElementById("max").innerHTML= f
+</script>
+
+</body>
+</html>

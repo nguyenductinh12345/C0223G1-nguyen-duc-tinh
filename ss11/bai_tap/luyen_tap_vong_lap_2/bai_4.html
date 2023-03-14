@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let i;
+  let j;
+  let sum="";
+  for(i=1; i<=10; i++) {
+      for(j=1; j<=50; j++) {
+        if(i==1||j==1||i==10||j==50){
+            sum+="*";
+        }else {
+            sum+="&nbsp&nbsp"
+        }
+      }
+       sum+="<br>"
+  }document.write(sum)
+</script>
+</body>
+</html>
