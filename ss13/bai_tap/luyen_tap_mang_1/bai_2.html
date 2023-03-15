@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arr= ["1","10","14","5","9","19","98","87","57","58",];
+    let max= 0
+    let vitri=""
+    for(let i=0; i<arr.length; i++){
+        if(arr[i]>max){
+            max=arr[i]
+            vitri=i
+        }
+    }
+    document.write("Vị trí là : "+vitri+"<br>")
+    document.write("Giá trị lớn nhất là : "+max)
+</script>
+</body>
+</html>

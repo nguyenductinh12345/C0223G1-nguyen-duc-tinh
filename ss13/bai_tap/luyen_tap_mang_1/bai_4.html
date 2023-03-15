@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let num=[2,5,9,13,46,54,56,];
+  for(let i=0; i<=num.length/2; i++){
+      let tam = num[i]
+      num[i] = num[num.length-1-i]
+      num[num.length-1-i] = tam
+  }
+  document.write(num)
+</script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Từ điển</h1>
+<input type="text" id="nhapTu" >
+<button type="button" onclick="timKiem()">Tìm kiếm</button><br><br>
+<div id="inRa"></div>
+<script>
+    function timKiem(){
+        let tiengAnh=["banana","tomato","mango","apple"];
+        let tiengViet=["chuối","cà chua","xoài","táo"];
+        let text=document.getElementById("nhapTu").value;
+        let va=tiengAnh.indexOf(text);
+        if(va!==-1){
+            document.getElementById("inRa").innerHTML=tiengViet[va]
+        }else{
+            document.getElementById("inRa").innerHTML="không có trong từ điển"
+        }
+    }
+</script>
+</body>
+</html>

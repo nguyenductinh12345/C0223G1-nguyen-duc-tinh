@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let so=prompt("Nhập số");
+    let x=so.toString();
+    let ketQua=[x[0]];
+    for(let i=0; i<x.length; i++){
+        if((x[i-1])%2===0 && (x[i])%2===0){
+            ketQua.push(' - ',x[i]);
+        }else {
+            ketQua.push(x[i])
+        }
+    }
+    console.log(ketQua.join(''))
+</script>
+</body>
+</html>
