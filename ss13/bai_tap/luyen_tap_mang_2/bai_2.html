@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let str=['3','2','1','0','c','b','a',];
+  for(let i=0; i<=str.length/2; i++){
+      let rong = str[i]
+      str[i] = str[str.length-1-i]
+      str[str.length-1-i] = rong
+  }document.write(str)
+</script>
+</body>
+</html>

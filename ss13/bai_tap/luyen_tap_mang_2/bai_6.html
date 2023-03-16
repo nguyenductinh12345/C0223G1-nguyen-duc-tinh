@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let str = prompt("nhập chuỗi");
+  let newstr=""
+  for(let i=0; i<str.length; i++){
+      if(str[i]=="-"){
+          newstr+="_";
+      }else {
+          newstr+=str[i];
+      }
+  }document.write(newstr)
+
+</script>
+</body>
+</html>

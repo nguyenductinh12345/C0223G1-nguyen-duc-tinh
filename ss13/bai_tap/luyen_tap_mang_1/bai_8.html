@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let num = [9,2,423,56,1,243,54,59,];
+    let rong = 0;
+    for(let i=0; i<num.length; i++){
+        for(let j=i+1; j<num.length; j++) {
+            if (num[j] > num[i]) {
+                rong = num[j]
+                num[j] = num[i]
+                num[i] = rong
+            }
+        }
+    }console.log(num);
+</script>
+</body>
+</html>
