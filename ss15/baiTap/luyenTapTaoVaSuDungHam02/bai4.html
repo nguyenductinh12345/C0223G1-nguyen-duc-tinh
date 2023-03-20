@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function kiemTraKiTu(x) {
+        let ketQua;
+        if (x % x == 0 || x == 0) {
+            ketQua = true
+        } else {
+            ketQua = false
+        }
+        if (ketQua) {
+            alert(nhap + " là kí tự số")
+        } else {
+            alert(nhap + " không phải là kí tự số")
+        }
+    }
+    let nhap = prompt("nhập kí tự");
+    kiemTraKiTu(nhap);
+  //  if (nhap=null) {
+     //   alert("không được để trống")
+   // }
+</script>
+</body>
+
+</html>

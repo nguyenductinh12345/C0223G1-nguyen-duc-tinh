@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let array=[ "Polaris", "Aldebaran", "Deneb", "Vega", "Altair", "Dubhe" ,"Regulus"];
+  let array2=["Ursa Minor", "Tarurus", "Cygnus", "Lyra", "Aquila", "Ursa Major" , "Leo"];
+  function check() {
+    let enterStr=prompt("nhập ngôi sao muốn tìm");
+    let resultStr=false;
+    let index;
+    for(let i=0; i<=array.length; i++){
+      if(enterStr==array[i]){
+        resultStr=true;
+         index = i;
+      }
+    }
+    if (resultStr){
+      alert(array2[index]);
+    }else {
+      alert("không tìm thấy")
+    }
+  }
+  check()
+
+</script>
+</body>
+</html>
