@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    class Apple {
+        constructor(weight) {
+            this.weight = weight;
+        }
+
+        getWeight() {
+            return this.weight;
+        }
+
+        setWeight(weight) {
+            this.weight = weight;
+        }
+
+        isEmpty() {
+            if (this.weight <= 0) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+
+        decreaseApple() {
+            if (this.isEmpty()) {
+                alert("Hết rồi hái thêm đi");
+            } else {
+                this.weight--;
+            }
+        }
+    }
+
+    class Human {
+        constructor(name, gender, weight) {
+            this.name = name;
+            this.gender = gender;
+            this.weight = weight;
+        }
+
+        setName(name) {
+            this.name = name;
+        }
+
+        getName() {
+            return this.name;
+        }
+
+        setWeight(weight) {
+            this.weight = weight;
+        }
+
+        getWeight() {
+            return this.weight;
+        }
+
+        isMale() {
+            if (this.gender == "male") {
+                return true;
+            } else {
+                return false;
+            }
+        }
+
+        checkApple(apple) {
+            return apple.isEmpty();
+        }
+
+        eat(apple) {
+           // if(checkApple(apple)) {
+
+            if (apple.getWeight() > 0) {
+                apple.decreaseApple();
+                this.weight++;
+            } else {
+                alert("Hết táo rồi");
+            }
+        }
+        say(something){
+            document.write(something)
+        }
+    }
+    let adam = new Human("adam", true, 75);
+    let eva = new Human("eva", false, 50);
+    let apple1 = new Apple(20);
+    adam.say(adam.name+": i love you eva"+"<br>");
+    eva.say(eva.name+": i love you too"+"<br>");
+    adam.say(adam.name+" :Em có biết tiếng việt không ?"+"<br>");
+    eva.say(eva.name+ " :Dạ em nói được"+"<br>");
+    adam.say(adam.name+" :may quá anh không giỏi tiếng anh"+"<br>");
+    eva.say(eva.name+" : Chứ bộ anh nghĩ em giỏi?");
+    (adam.eat(apple1));
+    (eva.eat(apple1));
+    alert("Quả táo sau khi bị adam và eva ăn còn lại là : "+ apple1.weight);
+    alert("Cân nặng của adm sau khi ăn một miếng táo :"+ adam.weight);
+    alert("Cân nặng của eva sau khi ăn một miếng táo :"+ eva.weight);
+</script>
+</body>
+</html>
