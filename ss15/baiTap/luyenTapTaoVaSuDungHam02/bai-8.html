@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function doiCho() {
+        let arr = [1, 2, 3, 4, 5, 6, 7];
+        let wasp;
+        for (let i = 0; i < arr.length / 2; i++) {
+            wasp = arr[i];
+            arr[i] = arr[arr.length - 1 - i];
+            arr[arr.length - 1 - i] = wasp;
+        }alert(arr);
+    }
+    doiCho()
+</script>
+</body>
+</html>

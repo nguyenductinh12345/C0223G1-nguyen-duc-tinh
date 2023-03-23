@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arr = ["a", "b", "c", "d", 1, 2, 3, 4, 5, "a", "c", "a"];
+
+    function check() {
+        let count = 0;
+        let V = prompt("nhập kí tự cần check: ");
+        for (let i = 0; i < arr.length; i++) {
+            if (arr[i] == V) {
+                count += 1;
+            }
+        }
+        if (count == 0) {
+            alert(-1);
+        } else {
+            alert(count);
+        }
+    }
+
+    check()
+</script>
+</body>
+</html>
