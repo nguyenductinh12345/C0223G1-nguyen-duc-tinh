@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Tính thuế thu nhập cá nhân</h1>
+nhập tiền lương :<input type="number" id="nhap" placeholder="nhập số tiền lương">Triệu VND
+<button id="check" onclick="check()">Kiểm tra</button>
+<br>
+Tiền lương thực lãnh là :<p id="tienNhan"></p>
+tiền thuế là :<p id="tienThue"></p>
+<script>
+    function check() {
+        let nhap = document.getElementById("nhap").value
+        if (nhap >= 15) {
+            tienThue = nhap * 0.2;
+            tienNhan = nhap - tienThue;
+        } else if (nhap<15&&nhap >= 7) {
+            tienThue = nhap * 0.1;
+            tienNhan = nhap - tienThue;
+        } else {
+            tienThue = nhap * 0.05;
+            tienNhan = nhap - tienThue;
+        }
+
+
+        document.getElementById("tienThue").innerHTML = tienThue+" Triệu VND";
+        document.getElementById("tienNhan").innerHTML = tienNhan+" Triệu VND";
+    }
+
+    check()
+</script>
+</body>
+</html>
