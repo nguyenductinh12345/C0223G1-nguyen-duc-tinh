@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    class MeNu {
+        constructor(ten, giaTien) {
+            this.ten = ten;
+            this.giatien = giaTien;
+        }
+        // tạo function tính tổng tiền
+        soTien(soLuong) {
+            return this.giatien * soLuong;
+        }
+    }
+    let menu = [new MeNu("Cafe", 12000), new MeNu("cam vắt", 20000), new MeNu("Nước ép cà rổt", 17000),
+        new MeNu("Nước ép cà chua", 15000), new MeNu("Nước lọc", 8000), new MeNu("Nước dừa", 20000), new MeNu("Thoát gọi món",)];
+    let menuList = ""; // Hiển thị danh sách đồ uống theo thứ tự trong mảng dưới dang text
+    // _duyet mang de tao danh sach so thu tu: ten do uong
+    for (let i = 0; i < menu.length; i++) {
+        menuList += i + "-" + menu[i].ten;
+        // Chi them ky tu sau cac thanh phan truoc cuoi cung
+        if (i < menu.length - 1) {
+            menuList += ", ";
+        }
+    }
+    let sum = 0; // dùng cho việc tính tổng số tiền món đã gọi
+    let n;//dùng nhận số thứ tụe món muốn gọi
+    do {
+        // hiện ra bảng nhập stt món muốn gọi và gán giá trị nhập vào vào biến n
+        n = prompt("Chọn món muốn gọi bằng cách nhập số thứ tự của món: " + menuList);
+        //xét điều kiện nhập vào khi thoả điều kiện thì mới thực hiện các yêu cầu bên trong
+        if (n >= 0 && n < menu.length - 1) {
+            // lấy giá trị obj bằng vị trí của n nhập vào trong mảng
+            let obj = menu[n];
+            // hiện bảng nhập số lượng muốn gọi
+            let soLuong = prompt("giá thành: " + obj.giatien + ". Nhập số lượng muốn gọi");
+            //tính số tiền với số kuowngj đã nhập vào và lưu số tiền vào tổng
+            sum += obj.soTien(soLuong);
+        }
+    } while (n >= 0 && n < menu.length - 1);
+    alert("tổng tiền là: " + sum+"VND"+'   '+"Cảm ơn bạn đã sử dụng dịch vụ của chúng tôi");
+
+</script>
+</body>
+</html>

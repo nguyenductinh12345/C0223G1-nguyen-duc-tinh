@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let num1 = [1,2,3,4,5];
+    let num2 = [6,7,8,9,2];
+    let max = (num1[0] / num2[0]);
+    let giaTri;
+    for (let i = 0; i < num1.length; i++) {
+        for (let j = 0; j < num2.length; j++) {
+            if (max < (num1[i] / num2[j])) {
+                max = (num1[i] / num2[j])
+                giaTri=num1[i];
+            }
+        }
+    }
+    alert("phân số lớn nhất là " + max)
+    alert("giá trị tử số là :"+giaTri);
+    alert("Vị trí là :"+num1.indexOf(giaTri))
+
+</script>
+</body>
+</html>

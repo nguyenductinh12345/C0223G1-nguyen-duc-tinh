@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let x=[3,1,5,9,10,-1,6];
+    for(let i=0; i<=x.length/2; i++){
+      let tam=x[i];
+      x[i]=x[x.length-1-i];
+      x[x.length-1-i]=tam;
+    }document.write(x)
+</script>
+</body>
+</html>
