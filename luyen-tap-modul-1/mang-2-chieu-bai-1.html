@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function getRandomInt() {
+        return Math.floor(Math.random() * 100);
+    }
+
+    function tao2DArray(m,n) {
+        let arr = []
+        for (let i = 0; i <m ; i++) {
+            let arr2 = [];
+            for (let j=0; j<n; j++){
+                arr2.push(getRandomInt());
+            }
+            arr.push(arr2);
+        }
+        return arr;
+    }
+
+    let n = prompt("nhap n");
+    let m = prompt("nhap m");
+    let arr = tao2DArray(m, n);
+    console.log(arr);
+    let sum = 0;
+    arr.forEach((x) => {
+        x.filter((j) => j % 2 == 0)
+            .forEach((i) => {
+                sum += i;
+            })
+    });
+    func
+    let narr = [];
+    arr.forEach((x) => {
+       if (arr[x] % 2 == 0) {
+           narr.push(arr[x]):
+       } 
+    });
+    return narr
+    alert(sum)
+
+
+</script>
+</body>
+</html>

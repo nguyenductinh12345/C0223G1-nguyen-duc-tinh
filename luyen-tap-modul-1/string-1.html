@@ -5,6 +5,35 @@
     <title>Title</title>
 </head>
 <body>
+<script>
+    function myFunction() {
+        let str = prompt("Nhập chuỗi kí tự");
+        str = str.toLowerCase().trim()// chuyển chuỗi nhập vào thành chuỗi chữ thường không có dấu cách đầu và cuối
+        let arr = str.split(" ");//chuyển chuỗi thành Array
+        for (let i = 0; i < arr.length; i++) {//duyệt mảng để bỏ những khoảng trắng thừa
+            if (arr[i] === "" && arr[i + 1] === "") {
+                arr.splice(i + 1, 1)
+                i--;
+            }
+        }
+        for (let i = 0; i < arr.length; i++) {//duyệt mảng in hoa chữ cái đầu tiên mỗi từ
+            arr[i] = arr[i].charAt(0).toUpperCase() + arr[i].slice(1)
+        }
+        let maxlength = 0;
+        let index=0;
+        for (let i = 0; i < arr.length; i++) {
+            if (arr[i] > maxlength) {
+                maxlength = arr[i];
+                index=i;
+            }
+        }
+        let str1 = arr.join(' ');
+        alert("chuỗi chưa được chuyển hoá là :"+str)
+        alert("chuỗi sau khi được duyệt là :"+str1);
+        alert("ký tự dài nhất là :"+arr[index]);
+    }
 
+    myFunction()
+</script>
 </body>
 </html>

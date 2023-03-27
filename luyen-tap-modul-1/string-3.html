@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let str1="aabc";
+  let str2="adcaaaca";
+  let arr=[];
+  for (let i = 0; i <str1.length ; i++) {
+      for (j=0; j<str2.length; j++){
+          if(str1[i]==str2[j] && arr.indexOf(j) < 0){
+              arr.push(j);
+              break;
+          }
+      }
+  }
+  alert(arr.length)
+</script>
+</body>
+</html>
