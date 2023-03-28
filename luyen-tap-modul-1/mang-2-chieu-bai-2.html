@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function getRandomInt() {
+        return Math.floor(Math.random() * 100);
+    }
+
+    function tao2DArray(m, n) {
+        let arr = []
+        for (let i = 0; i < m; i++) {
+            let arr2 = [];
+            for (let j = 0; j < n; j++) {
+                arr2.push(getRandomInt());
+            }
+            arr.push(arr2);
+        }
+        return arr;
+    }
+
+    let m = prompt("nhập số hàng muốn tạo : ");
+    let n = prompt("nhập số cột muốn tạo : ");
+    let arr = tao2DArray(m, n);
+    console.log(arr)
+    let soNguyenTo = [];
+    for (let i = 0; i < arr.length; i++) {
+        for (let j = 0; j < arr[i].length; j++) {
+            let flag = true;
+            if (arr[i][j] > 2) {
+                for (let k = 2; k <= Math.sqrt(arr[i][j]); k++) {
+                    if (arr[i][j] % k == 0) {
+                        flag = false
+                    }
+                }
+                if (flag) {
+                    soNguyenTo.push(arr[i][j])
+                }
+            }
+
+        }
+    }
+    console.log(soNguyenTo)
+    // alert(soNguyenTo);
+</script>
+</body>
+</html>
