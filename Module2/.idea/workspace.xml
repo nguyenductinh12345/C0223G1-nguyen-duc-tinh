@@ -5,17 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54c2df2e-424f-4c93-b887-bddefcde65cd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ss2/bai_tap/HienThiCacLoaiHinh.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss2/bai_tap/HienThiNSoNguyenToDauTien.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss2/bai_tap/HienThiSoNguyenToNhoHon100.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss3/bai_tap/DemSoLanXuatHien.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss3/bai_tap/GopMang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss3/bai_tap/ThemPhanTuVaoMang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss3/bai_tap/TimSoLonNhat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss3/bai_tap/TimSoNhoNhat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss3/bai_tap/TinhTongCacSoOMoiCot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss3/bai_tap/TinhTongDuongCheo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss3/bai_tap/XoaPhanTuKhoiMang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss3/bai_tap/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss3/bai_tap/KiemTraChanLe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss3/bai_tap/KiemTraNamNhuan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss3/bai_tap/KiemTraSoNguyenTo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss3/bai_tap/TraVeUocChung.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,9 +50,9 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Application.DemSoLanXuatHien">
-    <configuration name="DemSoLanXuatHien" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss3.bai_tap.DemSoLanXuatHien" />
+  <component name="RunManager" selected="Application.KiemTraSoNguyenTo">
+    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss3.bai_tap.Fibonacci" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
@@ -70,8 +64,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimSoLonNhat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss3.bai_tap.TimSoLonNhat" />
+    <configuration name="KiemTraChanLe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss3.bai_tap.KiemTraChanLe" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
@@ -83,8 +77,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimSoNhoNhat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss3.bai_tap.TimSoNhoNhat" />
+    <configuration name="KiemTraNamNhuan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss3.bai_tap.KiemTraNamNhuan" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
@@ -96,8 +90,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TinhTongCacSoOMoiCot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss3.bai_tap.TinhTongCacSoOMoiCot" />
+    <configuration name="KiemTraSoNguyenTo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss3.bai_tap.KiemTraSoNguyenTo" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
@@ -109,8 +103,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TinhTongDuongCheo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss3.bai_tap.TinhTongDuongCheo" />
+    <configuration name="TraVeUocChung" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss3.bai_tap.TraVeUocChung" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
@@ -124,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DemSoLanXuatHien" />
-        <item itemvalue="Application.TinhTongDuongCheo" />
-        <item itemvalue="Application.TinhTongCacSoOMoiCot" />
-        <item itemvalue="Application.TimSoNhoNhat" />
-        <item itemvalue="Application.TimSoLonNhat" />
+        <item itemvalue="Application.KiemTraSoNguyenTo" />
+        <item itemvalue="Application.Fibonacci" />
+        <item itemvalue="Application.KiemTraNamNhuan" />
+        <item itemvalue="Application.TraVeUocChung" />
+        <item itemvalue="Application.KiemTraChanLe" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +136,8 @@
       <updated>1680494055159</updated>
       <workItem from="1680494056451" duration="20029000" />
       <workItem from="1680576621367" duration="45000" />
-      <workItem from="1680576697397" duration="18894000" />
+      <workItem from="1680576697397" duration="27084000" />
+      <workItem from="1680676574179" duration="1578000" />
     </task>
     <servers />
   </component>
