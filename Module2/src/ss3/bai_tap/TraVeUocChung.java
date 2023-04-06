@@ -8,19 +8,20 @@ public class TraVeUocChung {
         Scanner sc = new Scanner(System.in);
         System.out.println("Nhập vào số cần tìm ước chung: ");
         int so = Integer.parseInt(sc.nextLine());
-        int [] arr = UocChung(so);
+        int[] arr = UocChung(so);
         for (int j : arr) {
             if (j != 0) {
                 System.out.println(j);
             }
         }
     }
+
     public static int[] UocChung(int so) {
         int[] uocChung = new int[so];
-        int count =0;
+        int count = 0;
         for (int i = 1; i <= so; i++) {
             if (so % i == 0) {
-                uocChung[count]=i;
+                uocChung[count] = i;
                 count++;
             }
         }

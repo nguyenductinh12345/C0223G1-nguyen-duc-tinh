@@ -1,8 +1,6 @@
 package ss3.bai_tap;
-
 import java.util.Arrays;
 import java.util.Scanner;
-
 public class GopMang {
     public static void main(String[] args) {
         int[] arr1 = new int[5];
@@ -21,7 +19,7 @@ public class GopMang {
             arr3[i] = arr1[i];
         }
         for (int i = arr1.length; i < arr3.length; i++) {
-            arr3[i]= arr2[i- arr1.length];
+            arr3[i] = arr2[i - arr1.length];
         }
         System.out.println(Arrays.toString(arr3));
     }

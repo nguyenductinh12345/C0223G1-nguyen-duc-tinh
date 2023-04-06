@@ -9,7 +9,6 @@ public class KiemTraSoNguyenTo {
         int number = Integer.parseInt(sc.nextLine());
         System.out.println(check(number));
     }
-
     public static boolean check(int number) {
         if (number <= 1) {
             return false;

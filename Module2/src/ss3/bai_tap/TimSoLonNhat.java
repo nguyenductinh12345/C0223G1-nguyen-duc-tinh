@@ -15,6 +15,6 @@ public class TimSoLonNhat {
                 }
             }
         }
-        System.out.println("Số lớn nhất trong mảng 2 chiều là: "+max);
+        System.out.println("Số lớn nhất trong mảng 2 chiều là: " + max);
     }
 }

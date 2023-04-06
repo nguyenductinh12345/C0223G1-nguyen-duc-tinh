@@ -5,12 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54c2df2e-424f-4c93-b887-bddefcde65cd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ss3/bai_tap/Fibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss3/bai_tap/KiemTraChanLe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss3/bai_tap/KiemTraNamNhuan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss3/bai_tap/KiemTraSoNguyenTo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss3/bai_tap/TraVeUocChung.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss4/bai_tap/bai_tap1/QuadraticEquation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss4/bai_tap/bai_tap1/Star.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss4/bai_tap/bai_tap2/StopWatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss4/bai_tap/bai_tap2/Times.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss4/bai_tap/bai_tap3/Fan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss4/bai_tap/bai_tap3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss4/thuc_hanh/Retangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss3/bai_tap/KiemTraChanLe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/ss3/bai_tap/KiemTraChanLe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss3/bai_tap/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3/bai_tap/Fibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss3/bai_tap/GopMang.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3/bai_tap/GopMang.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss3/bai_tap/KiemTraChanLe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3/bai_tap/KiemTraChanLe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss3/bai_tap/KiemTraNamNhuan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3/bai_tap/KiemTraNamNhuan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss3/bai_tap/KiemTraSoNguyenTo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3/bai_tap/KiemTraSoNguyenTo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss3/bai_tap/ThemPhanTuVaoMang.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3/bai_tap/ThemPhanTuVaoMang.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss3/bai_tap/TimSoLonNhat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3/bai_tap/TimSoLonNhat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss3/bai_tap/TinhTongCacSoOMoiCot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3/bai_tap/TinhTongCacSoOMoiCot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss3/bai_tap/TraVeUocChung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3/bai_tap/TraVeUocChung.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,41 +57,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Application.KiemTraSoNguyenTo">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ss3.bai_tap.Fibonacci" />
-      <module name="Module2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ss3.bai_tap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KiemTraChanLe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss3.bai_tap.KiemTraChanLe" />
-      <module name="Module2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ss3.bai_tap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KiemTraNamNhuan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss3.bai_tap.KiemTraNamNhuan" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
@@ -103,12 +91,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TraVeUocChung" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss3.bai_tap.TraVeUocChung" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss4.bai_tap.bai_tap3.Main" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss3.bai_tap.*" />
+          <option name="PATTERN" value="ss4.bai_tap.bai_tap3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Star" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss4.bai_tap.bai_tap1.Star" />
+      <module name="Module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss4.bai_tap.bai_tap1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Times" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss4.bai_tap.bai_tap2.Times" />
+      <module name="Module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss4.bai_tap.bai_tap2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.KiemTraSoNguyenTo" />
+        <item itemvalue="Application.Times" />
+        <item itemvalue="Application.Star" />
         <item itemvalue="Application.Fibonacci" />
-        <item itemvalue="Application.KiemTraNamNhuan" />
-        <item itemvalue="Application.TraVeUocChung" />
-        <item itemvalue="Application.KiemTraChanLe" />
       </list>
     </recent_temporary>
   </component>
@@ -138,6 +152,7 @@
       <workItem from="1680576621367" duration="45000" />
       <workItem from="1680576697397" duration="27084000" />
       <workItem from="1680676574179" duration="1578000" />
+      <workItem from="1680742053947" duration="11394000" />
     </task>
     <servers />
   </component>
