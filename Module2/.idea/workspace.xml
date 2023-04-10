@@ -5,18 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54c2df2e-424f-4c93-b887-bddefcde65cd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ss4/thuc_hanh/ThucThi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss5/bai_tap/bai_tap1/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss5/bai_tap/bai_tap1/TestCircle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss5/bai_tap/bai_tap2/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss5/bai_tap/bai_tap2/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss5/thuc_hanh/thuc_hanh1/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss5/thuc_hanh/thuc_hanh1/TestStaticMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss5/thuc_hanh/thuc_hanh2/TestStaticProperty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss5/bai_tap/bai_tap_them/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss5/bai_tap/bai_tap_them/ThucPham.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss6/bai_tap/bai_tap1/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss6/bai_tap/bai_tap1/Cylinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss6/bai_tap/bai_tap1/TestCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss6/bai_tap/bai_tap1/TestCylinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss6/bai_tap/bai_tap2/Point2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss6/bai_tap/bai_tap2/Point3D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss6/bai_tap/bai_tap2/TestPoint2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss6/bai_tap/bai_tap2/TestPoint3D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss6/bai_tap/bai_tap3/MovablePoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss6/bai_tap/bai_tap3/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss6/bai_tap/bai_tap3/TestMovablePoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss6/bai_tap/bai_tap3/TestPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss6/thuc_hanh/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss6/thuc_hanh/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss6/thuc_hanh/ShapeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss4/bai_tap/bai_tap2/Times.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/ss4/bai_tap/bai_tap2/Times.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss4/thuc_hanh/Retangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/ss4/thuc_hanh/Retangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss4/thuc_hanh/Retangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss4/thuc_hanh/Retangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/MyClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss5/bai_tap/bai_tap1/TestCircle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/ss5/bai_tap/bai_tap1/TestCircle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss5/bai_tap/bai_tap1/TestCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss5/bai_tap/bai_tap1/TestCircle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss5/bai_tap/bai_tap2/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss5/bai_tap/bai_tap2/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,20 +68,13 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Application.MyClass">
-    <configuration name="MyClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyClass" />
-      <module name="Module2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss5.bai_tap.bai_tap2.Test" />
+  <component name="RunManager" selected="Application.TestMovablePoint">
+    <configuration name="TestCylinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss6.bai_tap.bai_tap1.TestCylinder" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss5.bai_tap.bai_tap2.*" />
+          <option name="PATTERN" value="ss6.bai_tap.bai_tap1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCircle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss5.bai_tap.bai_tap1.TestCircle" />
+    <configuration name="TestMovablePoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss6.bai_tap.bai_tap3.TestMovablePoint" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss5.bai_tap.bai_tap1.*" />
+          <option name="PATTERN" value="ss6.bai_tap.bai_tap3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestStaticMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss5.thuc_hanh.thuc_hanh1.TestStaticMethod" />
+    <configuration name="TestPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss6.bai_tap.bai_tap3.TestPoint" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss5.thuc_hanh.thuc_hanh1.*" />
+          <option name="PATTERN" value="ss6.bai_tap.bai_tap3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +108,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestStaticProperty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss5.thuc_hanh.thuc_hanh2.TestStaticProperty" />
+    <configuration name="TestPoint2D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss6.bai_tap_bai_tap2.TestPoint2D" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss5.thuc_hanh.thuc_hanh2.*" />
+          <option name="PATTERN" value="ss6.bai_tap_bai_tap2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPoint3D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss6.bai_tap_bai_tap2.TestPoint3D" />
+      <module name="Module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss6.bai_tap_bai_tap2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyClass" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.TestCircle" />
-        <item itemvalue="Application.TestStaticProperty" />
-        <item itemvalue="Application.TestStaticMethod" />
+        <item itemvalue="Application.TestMovablePoint" />
+        <item itemvalue="Application.TestPoint" />
+        <item itemvalue="Application.TestPoint3D" />
+        <item itemvalue="Application.TestPoint2D" />
+        <item itemvalue="Application.TestCylinder" />
       </list>
     </recent_temporary>
   </component>
@@ -144,7 +160,9 @@
       <workItem from="1680768345999" duration="2817000" />
       <workItem from="1680835922306" duration="1770000" />
       <workItem from="1680837846269" duration="5000" />
-      <workItem from="1680837907361" duration="5056000" />
+      <workItem from="1680837907361" duration="8259000" />
+      <workItem from="1681002794168" duration="1698000" />
+      <workItem from="1681096780238" duration="8585000" />
     </task>
     <servers />
   </component>
