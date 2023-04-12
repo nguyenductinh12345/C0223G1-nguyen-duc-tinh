@@ -5,19 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54c2df2e-424f-4c93-b887-bddefcde65cd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ss7/bai_tap/bai_tap1/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss7/bai_tap/bai_tap1/IResizeable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss7/bai_tap/bai_tap1/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss7/bai_tap/bai_tap1/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss7/bai_tap/bai_tap1/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss7/bai_tap/bai_tap1/TestShape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss7/bai_tap/bai_tap2/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss7/bai_tap/bai_tap2/IColorable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss7/bai_tap/bai_tap2/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss7/bai_tap/bai_tap2/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss7/bai_tap/bai_tap2/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss7/bai_tap/bai_tap2/TestShape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss10/thuc_hanh/thuc_hanh1/MyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss10/thuc_hanh/thuc_hanh1/MyListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss8/bai_tap/TennisGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss7/bai_tap/bai_tap2/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/ss7/bai_tap/bai_tap2/Circle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss7/bai_tap/bai_tap2/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/ss7/bai_tap/bai_tap2/Rectangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss7/bai_tap/bai_tap2/Square.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/ss7/bai_tap/bai_tap2/Square.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="package-info" />
         <option value="Interface" />
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -60,35 +54,22 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Application.TestShape (1)">
+  <component name="RunManager" selected="Application.test">
+    <configuration name="MyListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss10.thuc_hanh.thuc_hanh1.MyListTest" />
+      <module name="Module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss10.thuc_hanh.thuc_hanh1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestCircle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ss7.bai_tap.bai_tap1.TestCircle" />
-      <module name="Module2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ss7.bai_tap.bai_tap1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestMovablePoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss6.bai_tap.bai_tap3.TestMovablePoint" />
-      <module name="Module2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ss6.bai_tap.bai_tap3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestRectangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss7.bai_tap.bai_tap1.TestRectangle" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
@@ -126,13 +107,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss10.thuc_hanh.thuc_hanh1.test" />
+      <module name="Module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss10.thuc_hanh.thuc_hanh1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.MyListTest" />
         <item itemvalue="Application.TestShape (1)" />
         <item itemvalue="Application.TestShape" />
         <item itemvalue="Application.TestCircle" />
-        <item itemvalue="Application.TestRectangle" />
-        <item itemvalue="Application.TestMovablePoint" />
       </list>
     </recent_temporary>
   </component>
@@ -157,6 +151,8 @@
       <workItem from="1681096780238" duration="8585000" />
       <workItem from="1681183513836" duration="11043000" />
       <workItem from="1681203640944" duration="2452000" />
+      <workItem from="1681207593537" duration="346000" />
+      <workItem from="1681268014622" duration="8423000" />
     </task>
     <servers />
   </component>
