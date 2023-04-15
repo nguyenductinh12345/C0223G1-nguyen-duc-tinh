@@ -1,8 +1,8 @@
-package ss10.bai_tap.bai_tap2.view;
+package ss10.bai_tap.bai_tap2.model;
 
 import ss10.bai_tap.bai_tap2.model.ConNguoi;
 
-public class HocSinh extends ConNguoi {
+public class HocSinh extends ConNguoi{
     private String lop;
     private double diem;
 
