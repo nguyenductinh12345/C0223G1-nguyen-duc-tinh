@@ -1,28 +1,38 @@
-//package ss10.bai_tap.bai_tap2.controller;
-//
-//import ss10.bai_tap.bai_tap2.service.QuanLy;
-//
-//import java.util.Scanner;
-//
-//public class Controller {
-//    QuanLy quanLy = new QuanLy();
-//
-//    public Controller(QuanLy quanLy) {
-//        this.quanLy = quanLy;
-//    }
-//    void nhapDuLieu(){
-//        Scanner sc = new Scanner(System.in);
-//        int n;
-//        do {
-//            System.out.println("1.Thêm mới học sinh");
-//            System.out.println("2.Xoá học sinh");
-//            System.out.println("3.Xem danh sách học sinh");
-//            System.out.println("4.Thoát.");
-//
-//            if (n==1){
-//
-//            }
-//
-//        }while (n !=4);
-//    }
-//}
+package ss10.bai_tap.bai_tap2.controller;
+
+import ss10.bai_tap.bai_tap2.service.HocSinhService;
+
+import java.util.Scanner;
+
+public class HocSinhController {
+    private HocSinhService hocSinhService = new HocSinhService();
+    public void hienThiHocSinhMenu(){
+        Scanner scanner = new Scanner(System.in);
+        boolean flag = true;
+        do {
+            System.out.println("------Quản lý học viên-------\n"+
+                    "1. Thêm mới học sinh \n"+
+                    "2. Xoá học sinh\n"+
+                    "3. Xem danh sách học sinh\n"+
+                    "0. Thoát\n"+
+                    "Vui lòng chọn chức năng:");
+            String chon=scanner.nextLine();
+            switch (chon){
+                case "1":
+                    hocSinhService.themHocSinh();
+                    break;
+                case "2":
+                    hocSinhService.xoaHocSinh();
+                    break;
+                case "3":
+                    hocSinhService.hienThiHocSinhList();
+                    break;
+                case "0":
+                    flag=false;
+                    System.out.println("thoát quản lý học sinh.");
+                default:
+                    System.out.println("Chức năng đã chọn chưa đúng.");
+            }
+        }while (flag);
+    }
+}

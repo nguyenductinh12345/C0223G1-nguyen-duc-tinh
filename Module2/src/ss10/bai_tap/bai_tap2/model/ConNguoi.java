@@ -4,12 +4,12 @@ public class ConNguoi {
     private int ma;
     private String ten;
     private String ngaySinh;
-    private String gioiTinh;
+    private boolean gioiTinh;
 
     public ConNguoi() {
     }
 
-    public ConNguoi(int ma, String ten, String ngaySinh, String gioiTinh) {
+    public ConNguoi(int ma, String ten, String ngaySinh, boolean gioiTinh) {
         this.ma = ma;
         this.ten = ten;
         this.ngaySinh = ngaySinh;
@@ -40,21 +40,20 @@ public class ConNguoi {
         this.ngaySinh = ngaySinh;
     }
 
-    public String getGioiTinh() {
+    public boolean isGioiTinh() {
         return gioiTinh;
     }
 
-    public void setGioiTinh(String gioiTinh) {
+    public void setGioiTinh(boolean gioiTinh) {
         this.gioiTinh = gioiTinh;
     }
 
     @Override
     public String toString() {
-        return "ConNguoi{" +
-                "ma=" + ma +
-                ", ten='" + ten + '\'' +
-                ", ngaySinh='" + ngaySinh + '\'' +
-                ", gioiTinh='" + gioiTinh + '\'' +
-                '}';
+        return "" +
+                "ma= " + ma +
+                ", ten= '" + ten + '\'' +
+                ", ngaySinh= '" + ngaySinh + '\'' +
+                ", gioiTinh= " + gioiTinh;
     }
 }

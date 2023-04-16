@@ -5,20 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54c2df2e-424f-4c93-b887-bddefcde65cd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ss10/bai_tap/bai_tap2/controller/HocSinhController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss10/bai_tap/bai_tap2/repository/IHocSinh.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss10/bai_tap/bai_tap2/service/QuanLy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss11/bai_tap/bai_tap1/DaoNguoc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss11/bai_tap/bai_tap1/DaoNguocChuoi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss11/bai_tap/bai_tap2/ChuyenDoiSangNhjPhan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss11/bai_tap/bai_tap3/KiemTraPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss11/bai_tap/bai_tap4/KiemTraDauNgoat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss10/bai_tap/bai_tap2/repository/HocSinhRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss10/bai_tap/bai_tap2/service/IHocSinhService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss10/bai_tap/bai_tap2/view/CodeGymManagement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss10/bai_tap/bai_tap1/MyList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/ss10/bai_tap/bai_tap1/MyList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss10/bai_tap/bai_tap1/MyListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/ss10/bai_tap/bai_tap1/MyListTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss10/bai_tap/bai_tap2/controller/QuanLy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss10/bai_tap/bai_tap2/view/HocSinh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss10/bai_tap/bai_tap2/model/HocSinh.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss10/bai_tap/bai_tap2/view/IHocSinh.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss10/bai_tap/bai_tap2/model/ConNguoi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/ss10/bai_tap/bai_tap2/model/ConNguoi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss10/bai_tap/bai_tap2/model/HocSinh.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/ss10/bai_tap/bai_tap2/model/HocSinh.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss10/bai_tap/bai_tap2/repository/IHocSinh.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss10/bai_tap/bai_tap2/service/QuanLy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss10/bai_tap/bai_tap2/controller/HocSinhController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss10/bai_tap/bai_tap2/controller/HocSinhController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss10/bai_tap/bai_tap2/model/ConNguoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss10/bai_tap/bai_tap2/model/ConNguoi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss10/bai_tap/bai_tap2/model/HocSinh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss10/bai_tap/bai_tap2/model/HocSinh.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss10/bai_tap/bai_tap2/repository/IHocSinh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss10/bai_tap/bai_tap2/repository/IHocSinhRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss10/bai_tap/bai_tap2/service/QuanLy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss10/bai_tap/bai_tap2/service/HocSinhService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +65,7 @@
       <recent name="ss11.bai_tap.bai_tap1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.KiemTraDauNgoat">
+  <component name="RunManager" selected="Application.CodeGymManagement">
     <configuration name="ChuyenDoiSangNhjPhan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ss11.bai_tap.bai_tap2.ChuyenDoiSangNhjPhan" />
       <module name="Module2" />
@@ -80,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DaoNguoc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss11.bai_tap.bai_tap1.DaoNguoc" />
+    <configuration name="CodeGymManagement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss10.bai_tap.bai_tap2.view.CodeGymManagement" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss11.bai_tap.bai_tap1.*" />
+          <option name="PATTERN" value="ss10.bai_tap.bai_tap2.view.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CodeGymManagement" />
         <item itemvalue="Application.KiemTraDauNgoat" />
         <item itemvalue="Application.KiemTraPalindrome" />
         <item itemvalue="Application.ChuyenDoiSangNhjPhan" />
         <item itemvalue="Application.DaoNguocChuoi" />
-        <item itemvalue="Application.DaoNguoc" />
       </list>
     </recent_temporary>
   </component>
@@ -168,6 +167,8 @@
       <workItem from="1681355114680" duration="31370000" />
       <workItem from="1681536862138" duration="222000" />
       <workItem from="1681539989195" duration="3301000" />
+      <workItem from="1681558502244" duration="4597000" />
+      <workItem from="1681608426290" duration="5956000" />
     </task>
     <servers />
   </component>
