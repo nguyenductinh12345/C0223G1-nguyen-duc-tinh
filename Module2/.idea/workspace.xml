@@ -5,19 +5,119 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54c2df2e-424f-4c93-b887-bddefcde65cd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ss10/bai_tap/bai_tap2/repository/HocSinhRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss10/bai_tap/bai_tap2/service/IHocSinhService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss10/bai_tap/bai_tap2/view/CodeGymManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss12/bai_tap/bai_tap1/Controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss12/bai_tap/bai_tap1/Repository/IProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss12/bai_tap/bai_tap1/Repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss12/bai_tap/bai_tap1/Service/IProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss12/bai_tap/bai_tap1/Service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss12/bai_tap/bai_tap1/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss12/bai_tap/bai_tap1/view/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss12/bai_tap/bai_tap2/DemLanBa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss12/bai_tap/bai_tap2/DemLanBon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss12/bai_tap/bai_tap2/DemLanHai.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss12/bai_tap/bai_tap2/DemSoLanXuatHien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss12/thuc_hanh/thuc_hanh1/TestMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss12/thuc_hanh/thuc_hanh2/CheckStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss12/thuc_hanh/thuc_hanh2/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss10/bai_tap/bai_tap2/model/ConNguoi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/ss10/bai_tap/bai_tap2/model/ConNguoi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss10/bai_tap/bai_tap2/model/HocSinh.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/ss10/bai_tap/bai_tap2/model/HocSinh.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss10/bai_tap/bai_tap2/repository/IHocSinh.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss10/bai_tap/bai_tap2/service/QuanLy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss10/bai_tap/bai_tap2/controller/HocSinhController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss10/bai_tap/bai_tap2/controller/HocSinhController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss10/bai_tap/bai_tap2/model/ConNguoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss10/bai_tap/bai_tap2/model/ConNguoi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss10/bai_tap/bai_tap2/model/HocSinh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss10/bai_tap/bai_tap2/model/HocSinh.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss10/bai_tap/bai_tap2/repository/IHocSinh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss10/bai_tap/bai_tap2/repository/IHocSinhRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss10/bai_tap/bai_tap2/service/QuanLy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss10/bai_tap/bai_tap2/service/HocSinhService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss1/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss1/bai_tap/DocSoThanhChu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss1/bai_tap/DoiTien.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss1/bai_tap/Hello.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss1/thuc_hanh/ChiSoCanNang.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss1/thuc_hanh/DienTichChuNhat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss1/thuc_hanh/InSo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss1/thuc_hanh/KiemTraNamNhuan.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss1/thuc_hanh/PhuongTrinhBacNhat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss1/thuc_hanh/SystemTime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss1/thuc_hanh/TinhNgay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss10/bai_tap/bai_tap1/MyList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss10/bai_tap/bai_tap1/MyListTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss10/bai_tap/bai_tap2/controller/HocSinhController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss10/bai_tap/bai_tap2/model/ConNguoi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss10/bai_tap/bai_tap2/model/HocSinh.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss10/bai_tap/bai_tap2/repository/HocSinhRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss10/bai_tap/bai_tap2/repository/IHocSinhRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss10/bai_tap/bai_tap2/service/HocSinhService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss10/bai_tap/bai_tap2/service/IHocSinhService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss10/bai_tap/bai_tap2/view/CodeGymManagement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss10/thuc_hanh/thuc_hanh1/MyList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss10/thuc_hanh/thuc_hanh1/MyListTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss11/bai_tap/bai_tap1/DaoNguoc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss11/bai_tap/bai_tap1/DaoNguocChuoi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss11/bai_tap/bai_tap2/ChuyenDoiSangNhjPhan.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss11/bai_tap/bai_tap3/KiemTraPalindrome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss11/bai_tap/bai_tap4/KiemTraDauNgoat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss2/bai_tap/HienThiCacLoaiHinh.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss2/bai_tap/HienThiNSoNguyenToDauTien.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss2/bai_tap/HienThiSoNguyenToNhoHon100.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss2/bai_tap/TamGiacCan.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss2/bai_tap/TamGiacCan2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss2/bai_tap/TamGiacVuong.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss2/bai_tap/TamGiacVuong2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss3/bai_tap/DemSoLanXuatHien.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss3/bai_tap/Fibonacci.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss3/bai_tap/GopMang.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss3/bai_tap/KiemTraChanLe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss3/bai_tap/KiemTraNamNhuan.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss3/bai_tap/KiemTraSoNguyenTo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss3/bai_tap/ThemPhanTuVaoMang.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss3/bai_tap/TimSoLonNhat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss3/bai_tap/TimSoNhoNhat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss3/bai_tap/TinhTongCacSoOMoiCot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss3/bai_tap/TinhTongDuongCheo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss3/bai_tap/TraVeUocChung.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss3/bai_tap/XoaPhanTuKhoiMang.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss4/bai_tap/bai_tap1/QuadraticEquation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss4/bai_tap/bai_tap1/Star.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss4/bai_tap/bai_tap2/StopWatch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss4/bai_tap/bai_tap2/Times.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss4/bai_tap/bai_tap3/Fan.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss4/bai_tap/bai_tap3/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss4/thuc_hanh/Retangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss4/thuc_hanh/ThucThi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss5/bai_tap/bai_tap1/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss5/bai_tap/bai_tap1/TestCircle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss5/bai_tap/bai_tap2/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss5/bai_tap/bai_tap2/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss5/bai_tap/bai_tap_them/ThucPham.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss5/thuc_hanh/thuc_hanh1/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss5/thuc_hanh/thuc_hanh1/TestStaticMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss5/thuc_hanh/thuc_hanh2/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss5/thuc_hanh/thuc_hanh2/TestStaticProperty.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss6/bai_tap/bai_tap1/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss6/bai_tap/bai_tap1/Cylinder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss6/bai_tap/bai_tap1/TestCircle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss6/bai_tap/bai_tap1/TestCylinder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss6/bai_tap/bai_tap2/Point2D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss6/bai_tap/bai_tap2/Point3D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss6/bai_tap/bai_tap2/TestPoint2D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss6/bai_tap/bai_tap2/TestPoint3D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss6/bai_tap/bai_tap3/MovablePoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss6/bai_tap/bai_tap3/Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss6/bai_tap/bai_tap3/TestMovablePoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss6/bai_tap/bai_tap3/TestPoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss6/thuc_hanh/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss6/thuc_hanh/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss6/thuc_hanh/ShapeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss7/bai_tap/bai_tap1/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss7/bai_tap/bai_tap1/IResizeable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss7/bai_tap/bai_tap1/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss7/bai_tap/bai_tap1/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss7/bai_tap/bai_tap1/Square.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss7/bai_tap/bai_tap1/TestShape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss7/bai_tap/bai_tap2/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss7/bai_tap/bai_tap2/IColorable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss7/bai_tap/bai_tap2/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss7/bai_tap/bai_tap2/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss7/bai_tap/bai_tap2/Square.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss7/bai_tap/bai_tap2/TestShape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss8/bai_tap/TennisGame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/system-time/SystemTime.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,13 +165,13 @@
       <recent name="ss11.bai_tap.bai_tap1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CodeGymManagement">
-    <configuration name="ChuyenDoiSangNhjPhan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss11.bai_tap.bai_tap2.ChuyenDoiSangNhjPhan" />
+  <component name="RunManager" selected="Application.DemLanBon">
+    <configuration name="DemLanBa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss12.bai_tap.bai_tap2.DemLanBa" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss11.bai_tap.bai_tap2.*" />
+          <option name="PATTERN" value="ss12.bai_tap.bai_tap2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +179,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CodeGymManagement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss10.bai_tap.bai_tap2.view.CodeGymManagement" />
+    <configuration name="DemLanBon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss12.bai_tap.bai_tap2.DemLanBon" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss10.bai_tap.bai_tap2.view.*" />
+          <option name="PATTERN" value="ss12.bai_tap.bai_tap2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +192,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DaoNguocChuoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss11.bai_tap.bai_tap1.DaoNguocChuoi" />
+    <configuration name="DemLanHai" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss12.bai_tap.bai_tap2.DemLanHai" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss11.bai_tap.bai_tap1.*" />
+          <option name="PATTERN" value="ss12.bai_tap.bai_tap2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +205,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KiemTraDauNgoat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss11.bai_tap.bai_tap4.KiemTraDauNgoat" />
+    <configuration name="DemSoLanXuatHien" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss12.bai_tap.bai_tap2.DemSoLanXuatHien" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss11.bai_tap.bai_tap4.*" />
+          <option name="PATTERN" value="ss12.bai_tap.bai_tap2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +218,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KiemTraPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss11.bai_tap.bai_tap3.KiemTraPalindrome" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss12.bai_tap.bai_tap1.view.Test" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss11.bai_tap.bai_tap3.*" />
+          <option name="PATTERN" value="ss12.bai_tap.bai_tap1.view.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +233,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CodeGymManagement" />
-        <item itemvalue="Application.KiemTraDauNgoat" />
-        <item itemvalue="Application.KiemTraPalindrome" />
-        <item itemvalue="Application.ChuyenDoiSangNhjPhan" />
-        <item itemvalue="Application.DaoNguocChuoi" />
+        <item itemvalue="Application.DemLanBon" />
+        <item itemvalue="Application.DemLanBa" />
+        <item itemvalue="Application.DemLanHai" />
+        <item itemvalue="Application.DemSoLanXuatHien" />
+        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -169,6 +269,8 @@
       <workItem from="1681539989195" duration="3301000" />
       <workItem from="1681558502244" duration="4597000" />
       <workItem from="1681608426290" duration="5956000" />
+      <workItem from="1681692477675" duration="16500000" />
+      <workItem from="1681718742608" duration="23000" />
     </task>
     <servers />
   </component>
