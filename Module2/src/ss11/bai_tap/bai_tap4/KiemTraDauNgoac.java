@@ -3,7 +3,7 @@ package ss11.bai_tap.bai_tap4;
 import java.util.Scanner;
 import java.util.Stack;
 
-public class KiemTraDauNgoat {
+public class KiemTraDauNgoac {
     public static void main(String[] args) {
         Stack<Character> bStack = new Stack<>();
         Stack<Character> cStack = new Stack<>();
