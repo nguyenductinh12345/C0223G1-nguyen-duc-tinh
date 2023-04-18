@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54c2df2e-424f-4c93-b887-bddefcde65cd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ss13/bai_tap/bai_tap1/TimChuoiTangDan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss13/bai_tap/bai_tap1/TimChuoiTangDan2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss13/bai_tap/bai_tap2/CaiDatThuatToan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss13/bai_tap/bai_tap3/TimChuoiLIenTiep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss13/thuc_hanh/thuc_hanh1/BinarySearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss11/bai_tap/bai_tap4/KiemTraDauNgoat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss11/bai_tap/bai_tap4/KiemTraDauNgoat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss11/bai_tap/bai_tap4/KiemTraDauNgoac.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss13/bai_tap/bai_tap1/TimChuoiTangDan2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss13/bai_tap/bai_tap1/TimChuoiTangDan2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss13/bai_tap/bai_tap2/CaiDatThuatToan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss13/bai_tap/bai_tap2/CaiDatThuatToan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss13/bai_tap/bai_tap3/TimChuoiLIenTiep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss13/bai_tap/bai_tap3/TimChuoiLIenTiep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss13/thuc_hanh/thuc_hanh1/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss13/thuc_hanh/thuc_hanh1/BinarySearch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +57,7 @@
       <recent name="ss11.bai_tap.bai_tap1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TimChuoiLIenTiep">
+  <component name="RunManager" selected="Application.demo">
     <configuration name="CaiDatThuatToan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ss13.bai_tap.bai_tap2.CaiDatThuatToan" />
       <module name="Module2" />
@@ -128,8 +125,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TimChuoiLIenTiep" />
         <item itemvalue="Application.demo" />
+        <item itemvalue="Application.TimChuoiLIenTiep" />
         <item itemvalue="Application.CaiDatThuatToan" />
         <item itemvalue="Application.TimChuoiTangDan2" />
         <item itemvalue="Application.TimChuoiTangDan" />
@@ -168,6 +165,7 @@
       <workItem from="1681718742608" duration="23000" />
       <workItem from="1681721889034" duration="45000" />
       <workItem from="1681779675560" duration="13204000" />
+      <workItem from="1681808211919" duration="1328000" />
     </task>
     <servers />
   </component>

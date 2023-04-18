@@ -8,19 +8,19 @@ public class TimChuoiLIenTiep {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Nhập vào một chuỗi bất kỳ");
         String string = scanner.nextLine();
-        LinkedList<Character>max=new LinkedList<>();
-        LinkedList<Character>list=new LinkedList<>();
+        LinkedList<Character> max = new LinkedList<>();
+        LinkedList<Character> list = new LinkedList<>();
         for (int i = 0; i < string.length(); i++) {
-            if(list.size()>=1&& string.charAt(i)<=list.getLast()){
+            if (list.size() >= 1 && string.charAt(i) <= list.getLast()) {
                 list.clear();
             }
             list.add(string.charAt(i));
-            if (list.size()>max.size()){
+            if (list.size() > max.size()) {
                 max.clear();
                 max.addAll(list);
             }
         }
-        for (Character cha:max) {
+        for (Character cha : max) {
             System.out.print(cha);
         }
         System.out.println();

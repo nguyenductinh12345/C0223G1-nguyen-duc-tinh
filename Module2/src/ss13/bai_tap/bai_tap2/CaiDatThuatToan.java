@@ -18,7 +18,7 @@ public class CaiDatThuatToan {
         int num = Integer.parseInt(scanner.nextLine());
         Arrays.sort(arrayint);
         System.out.println(Arrays.toString(arrayint));
-        System.out.println( binarySearch(arrayint,0,arrayint.length-1,num));
+        System.out.println(binarySearch(arrayint, 0, arrayint.length - 1, num));
 
     }
 
