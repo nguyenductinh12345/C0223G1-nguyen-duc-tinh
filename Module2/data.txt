@@ -1,0 +1,9 @@
+Nguyen Duc Tinh
+Nguyen Duc Tinh
+Mai Phuoc Tai
+Long vu
+Huu Quoc
+Student{name='Nguyen Duc Tinh', agr=26, email='tinh@gmail.com'}
+Student{name='Mai Phuoc Tai', agr=23, email='tai@gmail.com'}
+Student{name='Long Vu', agr=25, email='Vu@gmail.com'}
+Student{name='Huu Quoc', agr=27, email='Quoc@gmail.com'}

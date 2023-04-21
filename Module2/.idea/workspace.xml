@@ -5,10 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54c2df2e-424f-4c93-b887-bddefcde65cd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ss15/bai_tap/IllegalTriangleException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss15/bai_tap/SuDungLopIllegalTriangleException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss15/thuc_hanh/model/HocSinh.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss16/bai_tap/bai_tap1/CopyFileText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss16/bai_tap/bai_tap1/sourceFile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss16/bai_tap/bai_tap1/targetFile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss16/bai_tap/bai_tap2/QuocGia.CSV" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss16/bai_tap/bai_tap2/QuocGia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss16/bai_tap/bai_tap2/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss16/thuc_hanh/demo/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss16/thuc_hanh/demo/demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss16/thuc_hanh/demo/demo1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss15/bai_tap/SuDungLopIllegalTriangleException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/ss15/bai_tap/SuDungLopIllegalTriangleException.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +53,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="PLAIN_TEXT" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -53,16 +61,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="ss16.bai_tap.bai_tap1" />
       <recent name="ss11.bai_tap.bai_tap1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SuDungLopIllegalTriangleException">
-    <configuration name="CaiDatThoatToanSapXepChen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss14.bai_tap.bai_tap2.CaiDatThoatToanSapXepChen" />
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="CopyFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss16.bai_tap.bai_tap1.CopyFile" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss14.bai_tap.bai_tap2.*" />
+          <option name="PATTERN" value="ss16.bai_tap.bai_tap1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinhHoaThuatToanSapXepChen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss14.bai_tap.bai_tap1.MinhHoaThuatToanSapXepChen" />
+    <configuration name="CopyFileText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss16.bai_tap.bai_tap1.CopyFileText" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss14.bai_tap.bai_tap1.*" />
+          <option name="PATTERN" value="ss16.bai_tap.bai_tap1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SuDungLopIllegalTriangleException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss15.bai_tap.SuDungLopIllegalTriangleException" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss16.bai_tap.bai_tap2.Test" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss15.bai_tap.*" />
+          <option name="PATTERN" value="ss16.bai_tap.bai_tap2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimChuoiLIenTiep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss13.bai_tap.bai_tap3.TimChuoiLIenTiep" />
+    <configuration name="demo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss16.thuc_hanh.demo.demo" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss13.bai_tap.bai_tap3.*" />
+          <option name="PATTERN" value="ss16.thuc_hanh.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss13.bai_tap.bai_tap3.demo" />
+    <configuration name="demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss16.thuc_hanh.demo.demo1" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss13.bai_tap.bai_tap3.*" />
+          <option name="PATTERN" value="ss16.thuc_hanh.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SuDungLopIllegalTriangleException" />
-        <item itemvalue="Application.CaiDatThoatToanSapXepChen" />
-        <item itemvalue="Application.MinhHoaThuatToanSapXepChen" />
-        <item itemvalue="Application.demo" />
-        <item itemvalue="Application.TimChuoiLIenTiep" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.demo (1)" />
+        <item itemvalue="Application.CopyFileText" />
+        <item itemvalue="Application.CopyFile" />
+        <item itemvalue="Application.demo1" />
       </list>
     </recent_temporary>
   </component>
@@ -167,6 +176,7 @@
       <workItem from="1681808211919" duration="1328000" />
       <workItem from="1681886527488" duration="4347000" />
       <workItem from="1681960809892" duration="5295000" />
+      <workItem from="1681997543256" duration="19078000" />
     </task>
     <servers />
   </component>
