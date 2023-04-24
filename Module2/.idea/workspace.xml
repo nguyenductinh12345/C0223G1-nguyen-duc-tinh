@@ -5,17 +5,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54c2df2e-424f-4c93-b887-bddefcde65cd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ss16/bai_tap/bai_tap1/CopyFileText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss16/bai_tap/bai_tap1/sourceFile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss16/bai_tap/bai_tap1/targetFile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss16/bai_tap/bai_tap2/QuocGia.CSV" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss16/bai_tap/bai_tap2/QuocGia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss16/bai_tap/bai_tap2/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss16/thuc_hanh/demo/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss16/thuc_hanh/demo/demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss16/thuc_hanh/demo/demo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demoMVC/Controllor/StundentControllor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demoMVC/model/Stundent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demoMVC/repository/IStudentRebository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demoMVC/repository/StudentRebository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demoMVC/repository/dataStudent" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demoMVC/service/IStudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demoMVC/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demoMVC/view/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demoMVC2/controllor/StudentControllor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demoMVC2/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demoMVC2/rebository/IStudentRebository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demoMVC2/rebository/StudentRebository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demoMVC2/service/IStudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demoMVC2/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demoMVC2/view/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss16/thuc_hanh2/HocSinh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss16/thuc_hanh2/HocSinh2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss16/thuc_hanh2/demo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss17/bai_tap/bai_tap1/common/ReadsSanPham.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss17/bai_tap/bai_tap1/common/WritesSanPham.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss17/bai_tap/bai_tap1/controllor/QuanLySanPham.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss17/bai_tap/bai_tap1/model/SanPham.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss17/bai_tap/bai_tap1/rebository/ISanPhamRebository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss17/bai_tap/bai_tap1/rebository/SanPhamRebository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss17/bai_tap/bai_tap1/sanPham.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss17/bai_tap/bai_tap1/service/ISanPhamServiec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss17/bai_tap/bai_tap1/service/SanPhamServie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss17/bai_tap/bai_tap1/view/Text.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss17/bai_tap/bai_tap2/Text.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss17/bai_tap/bai_tap2/source_file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss17/bai_tap/bai_tap2/target_file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss17/thuc_hanh/demo/Student.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss17/thuc_hanh/demo/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss17/thuc_hanh/demo/TestInputOutput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss17/thuc_hanh/demo/Text.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss15/bai_tap/SuDungLopIllegalTriangleException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/ss15/bai_tap/SuDungLopIllegalTriangleException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ss16/bai_tap/bai_tap2/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/ss16/bai_tap/bai_tap2/Test.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,14 +91,17 @@
       <recent name="ss16.bai_tap.bai_tap1" />
       <recent name="ss11.bai_tap.bai_tap1" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ss17/bai_tap/bai_tap1/common" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="CopyFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss16.bai_tap.bai_tap1.CopyFile" />
+  <component name="RunManager" selected="Application.Text (2)">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss17.bai_tap.bai_tap3.Main" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss16.bai_tap.bai_tap1.*" />
+          <option name="PATTERN" value="ss17.bai_tap.bai_tap3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CopyFileText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss16.bai_tap.bai_tap1.CopyFileText" />
+    <configuration name="TestInputOutput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss17.thuc_hanh.demo.TestInputOutput" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss16.bai_tap.bai_tap1.*" />
+          <option name="PATTERN" value="ss17.thuc_hanh.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss16.bai_tap.bai_tap2.Test" />
+    <configuration name="Text (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss17.bai_tap.bai_tap1.view.Text" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss16.bai_tap.bai_tap2.*" />
+          <option name="PATTERN" value="ss17.bai_tap.bai_tap1.view.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="demo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss16.thuc_hanh.demo.demo" />
+    <configuration name="Text (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss17.bai_tap.bai_tap2.Text" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss16.thuc_hanh.demo.*" />
+          <option name="PATTERN" value="ss17.bai_tap.bai_tap2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +148,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss16.thuc_hanh.demo.demo1" />
+    <configuration name="Text" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss17.bai_tap.bai_tap1.common.view.Text" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss16.thuc_hanh.demo.*" />
+          <option name="PATTERN" value="ss17.bai_tap.bai_tap1.common.view.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.demo (1)" />
-        <item itemvalue="Application.CopyFileText" />
-        <item itemvalue="Application.CopyFile" />
-        <item itemvalue="Application.demo1" />
+        <item itemvalue="Application.Text (2)" />
+        <item itemvalue="Application.Text (1)" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Text" />
+        <item itemvalue="Application.TestInputOutput" />
       </list>
     </recent_temporary>
   </component>
@@ -177,6 +207,8 @@
       <workItem from="1681886527488" duration="4347000" />
       <workItem from="1681960809892" duration="5295000" />
       <workItem from="1681997543256" duration="19078000" />
+      <workItem from="1682068424641" duration="13616000" />
+      <workItem from="1682155005449" duration="26494000" />
     </task>
     <servers />
   </component>
