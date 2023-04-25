@@ -1,6 +1,6 @@
 package Casestady.model;
 
-public abstract class FuramaResort {
+public abstract class Facility {
     private int maDichVu;
     private String tenDichVU;
     private double dienTichSuDung;
@@ -8,10 +8,10 @@ public abstract class FuramaResort {
     private int soLuongNguoiToiDa;
     private String kieuThue;
 
-    public FuramaResort() {
+    public Facility() {
     }
 
-    public FuramaResort(int maDichVu, String tenDichVU, double dienTichSuDung, double chiPhiThue, int soLuongNguoiToiDa, String kieuThue) {
+    public Facility(int maDichVu, String tenDichVU, double dienTichSuDung, double chiPhiThue, int soLuongNguoiToiDa, String kieuThue) {
         this.maDichVu = maDichVu;
         this.tenDichVU = tenDichVU;
         this.dienTichSuDung = dienTichSuDung;

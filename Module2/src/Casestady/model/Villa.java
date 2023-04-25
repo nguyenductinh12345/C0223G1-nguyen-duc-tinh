@@ -1,6 +1,6 @@
 package Casestady.model;
 
-public class Villa extends FuramaResort {
+public class Villa extends Facility {
     private String tieuChuanPhong;
     private double dienTichHoBoi;
     private int soTang;

@@ -1,6 +1,6 @@
 package Casestady.model;
 
-public class House extends FuramaResort {
+public class House extends Facility {
     private String tieuChuanPhong;
     private int soTang;
 
