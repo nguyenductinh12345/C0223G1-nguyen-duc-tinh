@@ -1,10 +1,10 @@
 package Casestady.view;
 
-import Casestady.controller.FuremaController;
+import Casestady.controller.FuramaController;
 
 public class Text {
     public static void main(String[] args) {
-        FuremaController furemaController = new FuremaController();
+        FuramaController furemaController = new FuramaController();
         furemaController.displayMainMenu();
     }
 }
