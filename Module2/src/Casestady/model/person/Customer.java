@@ -1,7 +1,5 @@
 package Casestady.model.person;
 
-import Casestady.model.person.Person;
-
 public class Customer extends Person {
     private String loaiKhach;
     private String diaChi;
@@ -14,7 +12,8 @@ public class Customer extends Person {
         this.diaChi = diaChi;
     }
 
-    public Customer(int ma, String hoTen, String ngaySinh, boolean gioiTInh, int soCMND, int soDienThoai, String email, String loaiKhach, String diaChi) {
+    public Customer(String ma, String hoTen, String ngaySinh, String gioiTInh, String soCMND, String soDienThoai,
+                    String email, String loaiKhach, String diaChi) {
         super(ma, hoTen, ngaySinh, gioiTInh, soCMND, soDienThoai, email);
         this.loaiKhach = loaiKhach;
         this.diaChi = diaChi;
@@ -38,9 +37,13 @@ public class Customer extends Person {
 
     @Override
     public String toString() {
-        return "Customer{" +
+        return "Customer{" +super.toString() +
                 "loaiKhach='" + loaiKhach + '\'' +
-                ", diaChi='" + diaChi + '\'' + super.toString() +
+                ", diaChi='" + diaChi + '\'' +
                 '}';
+    }
+    public String getintoCsv(){
+        return super.getMa()+","+super.getHoTen()+","+super.getNgaySinh()+","+super.getGioiTinh()+","+super.getSoCMND()+
+                ","+super.getSoDienThoai()+","+super.getEmail()+","+this.loaiKhach+","+this.diaChi;
     }
 }

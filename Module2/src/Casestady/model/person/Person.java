@@ -1,32 +1,32 @@
 package Casestady.model.person;
 
 public abstract class Person {
-    private int ma;
+    private String ma;
     private String hoTen;
     private String ngaySinh;
-    private boolean gioiTInh;
-    private int soCMND;
-    private int soDienThoai;
+    private String gioiTinh;
+    private String soCMND;
+    private String soDienThoai;
     private String email;
 
     public Person() {
     }
 
-    public Person(int ma, String hoTen, String ngaySinh, boolean gioiTInh, int soCMND, int soDienThoai, String email) {
+    public Person(String ma, String hoTen, String ngaySinh, String gioiTinh, String soCMND, String soDienThoai, String email) {
         this.ma = ma;
         this.hoTen = hoTen;
         this.ngaySinh = ngaySinh;
-        this.gioiTInh = gioiTInh;
+        this.gioiTinh = gioiTinh;
         this.soCMND = soCMND;
         this.soDienThoai = soDienThoai;
         this.email = email;
     }
 
-    public int getMa() {
+    public String getMa() {
         return ma;
     }
 
-    public void setMa(int ma) {
+    public void setMa(String ma) {
         this.ma = ma;
     }
 
@@ -46,27 +46,27 @@ public abstract class Person {
         this.ngaySinh = ngaySinh;
     }
 
-    public boolean isGioiTInh() {
-        return gioiTInh;
+    public String getGioiTinh() {
+        return gioiTinh;
     }
 
-    public void setGioiTInh(boolean gioiTInh) {
-        this.gioiTInh = gioiTInh;
+    public void setGioiTinh(String gioiTinh) {
+        this.gioiTinh = gioiTinh;
     }
 
-    public int getSoCMND() {
+    public String getSoCMND() {
         return soCMND;
     }
 
-    public void setSoCMND(int soCMND) {
+    public void setSoCMND(String soCMND) {
         this.soCMND = soCMND;
     }
 
-    public int getSoDienThoai() {
+    public String getSoDienThoai() {
         return soDienThoai;
     }
 
-    public void setSoDienThoai(int soDienThoai) {
+    public void setSoDienThoai(String soDienThoai) {
         this.soDienThoai = soDienThoai;
     }
 
@@ -80,14 +80,12 @@ public abstract class Person {
 
     @Override
     public String toString() {
-        return "Person{" +
-                "ma=" + ma +
+        return "ma=" + ma +
                 ", hoTen='" + hoTen + '\'' +
                 ", ngaySinh='" + ngaySinh + '\'' +
-                ", gioiTInh=" + gioiTInh +
+                ", gioiTInh=" + gioiTinh +
                 ", soCMND=" + soCMND +
                 ", soDienThoai=" + soDienThoai +
-                ", email='" + email + '\'' +
-                '}';
+                ", email='" + email + '\''+", ";
     }
 }

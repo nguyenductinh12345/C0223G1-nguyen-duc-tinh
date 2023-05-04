@@ -1,7 +1,5 @@
 package Casestady.model.Facility;
 
-import Casestady.model.Facility.Facility;
-
 public class House extends Facility {
     private String tieuChuanPhong;
     private int soTang;
@@ -14,7 +12,7 @@ public class House extends Facility {
         this.soTang = soTang;
     }
 
-    public House(int maDichVu, String tenDichVU, double dienTichSuDung, double chiPhiThue, int soLuongNguoiToiDa, String kieuThue, String tieuChuanPhong, int soTang) {
+    public House(String maDichVu, String tenDichVU, String dienTichSuDung, String chiPhiThue, String soLuongNguoiToiDa, String kieuThue, String tieuChuanPhong, int soTang) {
         super(maDichVu, tenDichVU, dienTichSuDung, chiPhiThue, soLuongNguoiToiDa, kieuThue);
         this.tieuChuanPhong = tieuChuanPhong;
         this.soTang = soTang;

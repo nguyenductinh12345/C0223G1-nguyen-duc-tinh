@@ -1,8 +1,11 @@
 package Casestady.controller;
 
+import Casestady.service.EmployeeService;
+
 import java.util.Scanner;
 
 public class EmployeeController {
+    EmployeeService employeeService = new EmployeeService();
     Scanner scanner = new Scanner(System.in);
     int choice = 0;
 
@@ -26,10 +29,13 @@ public class EmployeeController {
             }
             switch (choice){
                 case 1:
+                    employeeService.showList();
                     break;
                 case 2:
+                    employeeService.addNew();
                     break;
                 case 3:
+                    employeeService.editEMployee();
                     break;
                 case 4:
                     break;

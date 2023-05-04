@@ -15,9 +15,6 @@ public class PromotionControllor {
             choice = Integer.parseInt(scanner.nextLine());
             try {
                 choice = Integer.parseInt(scanner.nextLine());
-                if (choice < 1 && choice > 3) {
-                    System.out.println("Vui lòng lựa chọn trong khoảng từ 1 đến 3");
-                }
             } catch (NumberFormatException e) {
                 System.out.println("Vui lòng lựa chọn trong khoảng từ 1 đến 3");
             } catch (Exception e) {

@@ -1,17 +1,17 @@
 package Casestady.model.Facility;
 
 public abstract class Facility {
-    private int maDichVu;
+    private String maDichVu;
     private String tenDichVU;
-    private double dienTichSuDung;
-    private double chiPhiThue;
-    private int soLuongNguoiToiDa;
+    private String dienTichSuDung;
+    private String chiPhiThue;
+    private String soLuongNguoiToiDa;
     private String kieuThue;
 
     public Facility() {
     }
 
-    public Facility(int maDichVu, String tenDichVU, double dienTichSuDung, double chiPhiThue, int soLuongNguoiToiDa, String kieuThue) {
+    public Facility(String maDichVu, String tenDichVU, String dienTichSuDung, String chiPhiThue, String soLuongNguoiToiDa, String kieuThue) {
         this.maDichVu = maDichVu;
         this.tenDichVU = tenDichVU;
         this.dienTichSuDung = dienTichSuDung;
@@ -20,11 +20,11 @@ public abstract class Facility {
         this.kieuThue = kieuThue;
     }
 
-    public int getMaDichVu() {
+    public String getMaDichVu() {
         return maDichVu;
     }
 
-    public void setMaDichVu(int maDichVu) {
+    public void setMaDichVu(String maDichVu) {
         this.maDichVu = maDichVu;
     }
 
@@ -36,27 +36,27 @@ public abstract class Facility {
         this.tenDichVU = tenDichVU;
     }
 
-    public double getDienTichSuDung() {
+    public String getDienTichSuDung() {
         return dienTichSuDung;
     }
 
-    public void setDienTichSuDung(double dienTichSuDung) {
+    public void setDienTichSuDung(String dienTichSuDung) {
         this.dienTichSuDung = dienTichSuDung;
     }
 
-    public double getChiPhiThue() {
+    public String getChiPhiThue() {
         return chiPhiThue;
     }
 
-    public void setChiPhiThue(double chiPhiThue) {
+    public void setChiPhiThue(String chiPhiThue) {
         this.chiPhiThue = chiPhiThue;
     }
 
-    public int getSoLuongNguoiToiDa() {
+    public String getSoLuongNguoiToiDa() {
         return soLuongNguoiToiDa;
     }
 
-    public void setSoLuongNguoiToiDa(int soLuongNguoiToiDa) {
+    public void setSoLuongNguoiToiDa(String soLuongNguoiToiDa) {
         this.soLuongNguoiToiDa = soLuongNguoiToiDa;
     }
 
