@@ -2,7 +2,13 @@ package Casestady.repository.interfaceRepo;
 
 import Casestady.model.person.Customer;
 
+import java.util.List;
+
 public interface ICustomerRepository extends IRepository<Customer>{
-    void editCustomer(int idex,int ma,String hoten,String ngaySinh,boolean gioiTinh, int soCMND,
-                      int soDienThoai, String email, String loaiKhach, String diaChi);
+    @Override
+    List<Customer> showList();
+
+    @Override
+    void addNew(Customer customer);
+    void editCustomer();
 }

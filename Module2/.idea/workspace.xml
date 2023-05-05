@@ -5,44 +5,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54c2df2e-424f-4c93-b887-bddefcde65cd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Casestady/util/FuramaReaderAndWrite/ReaderAndWriteCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Casestady/util/FuramaReaderAndWrite/ReaderAndWriteEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Casestady/util/regex/Validete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Casestady/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Casestady/service/interfaceService/ICustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demoMVC3/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demoMVC3/data/Student.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demoMVC3/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demoMVC3/repository/IStudentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demoMVC3/repository/StudentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demoMVC3/service/IStudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demoMVC3/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demoMVC3/util/ReadAndWrite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demoMVC3/util/Validete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demoMVC3/view/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/Casestady/controller/BookingControllor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/Casestady/controller/BookingControllor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Module2/Casestady/controller/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/Casestady/controller/CustomerController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Module2/Casestady/controller/EmployeeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/Casestady/controller/EmployeeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/Casestady/controller/FacilityControllor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/Casestady/controller/FacilityControllor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/Casestady/controller/FuramaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/Casestady/controller/FuramaController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/Casestady/controller/PromotionControllor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/Casestady/controller/PromotionControllor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/Casestady/data/Customer.csv" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/Casestady/data/Customer.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Module2/Casestady/data/Employee.csv" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/Casestady/data/Employee.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/Casestady/model/Facility/Facility.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/Casestady/model/Facility/Facility.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/Casestady/model/Facility/House.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/Casestady/model/Facility/House.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/Casestady/model/Facility/Room.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/Casestady/model/Facility/Room.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/Casestady/model/Facility/Villa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/Casestady/model/Facility/Villa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/Casestady/data/Facility.csv" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/Casestady/data/Facility.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Module2/Casestady/model/person/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/Casestady/model/person/Customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/Casestady/model/person/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/Casestady/model/person/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/Casestady/model/person/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/Casestady/model/person/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/Casestady/repository/CustomerRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/Casestady/repository/CustomerRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Module2/Casestady/repository/EmployeeRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/Casestady/repository/EmployeeRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/Casestady/repository/interfaceRepo/IEmployeeRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/Casestady/repository/interfaceRepo/IEmployeeRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/Casestady/repository/interfaceRepo/ICustomerRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/Casestady/repository/interfaceRepo/ICustomerRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/Casestady/service/CoustomerService.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Module2/Casestady/service/EmployeeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/Casestady/service/EmployeeService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/Casestady/until/FuramaReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/Casestady/until/FuramaWriter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/Casestady/service/Service.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/Casestady/service/interfaceService/ICoustomerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/Casestady/util/FuramaReaderAndWrite/ReaderAndWriteEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/Casestady/util/FuramaReaderAndWrite/ReaderAndWriteEmployee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Casestady/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Casestady/controller/CustomerController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Casestady/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Casestady/controller/EmployeeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Casestady/controller/PromotionControllor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Casestady/controller/PromotionControllor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Casestady/data/Customer.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/Casestady/data/Customer.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Casestady/data/Employee.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/Casestady/data/Employee.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Casestady/model/Facility/Facility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Casestady/model/Facility/Facility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Casestady/model/Facility/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Casestady/model/Facility/House.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Casestady/model/Facility/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Casestady/model/Facility/Room.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Casestady/model/Facility/Villa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Casestady/model/Facility/Villa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Casestady/data/Facility.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/Casestady/data/Facility.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Casestady/model/person/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Casestady/model/person/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Casestady/model/person/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Casestady/model/person/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Casestady/model/person/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Casestady/model/person/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Casestady/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Casestady/repository/CustomerRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Casestady/repository/EmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Casestady/repository/EmployeeRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Casestady/repository/interfaceRepo/IEmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Casestady/repository/interfaceRepo/IEmployeeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Casestady/repository/interfaceRepo/ICustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Casestady/repository/interfaceRepo/ICustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Casestady/service/CoustomerService.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Casestady/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Casestady/service/EmployeeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Casestady/until/FuramaReader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Casestady/until/FuramaWriter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Casestady/service/Service.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Casestady/service/interfaceService/ICoustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Casestady/util/FuramaReaderAndWrite/ReaderAndWriteCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Casestady/util/FuramaReaderAndWrite/ReaderAndWriteCustomer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Casestady/util/FuramaReaderAndWrite/ReaderAndWriteEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Casestady/util/FuramaReaderAndWrite/ReaderAndWriteEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Casestady/util/regex/Validete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Casestady/util/regex/Validete.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,8 +58,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -93,6 +98,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="demoMVC3.controller" />
       <recent name="Casestady.repository" />
       <recent name="ss16.bai_tap.bai_tap1" />
       <recent name="ss11.bai_tap.bai_tap1" />
@@ -148,12 +154,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TextValidateTenLop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss19.bai_tap.bai_tap1.TextValidateTenLop" />
+    <configuration name="demoMVC3.view.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demoMVC3.view.Test" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss19.bai_tap.bai_tap1.*" />
+          <option name="PATTERN" value="demoMVC3.view.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,10 +170,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Text (2)" />
+        <item itemvalue="Application.demoMVC3.view.Test" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Text (1)" />
         <item itemvalue="Application.TextPhoneNumber" />
-        <item itemvalue="Application.TextValidateTenLop" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +221,7 @@
       <workItem from="1682432009172" duration="3752000" />
       <workItem from="1682479532457" duration="13029000" />
       <workItem from="1682522123429" duration="2477000" />
-      <workItem from="1682558194861" duration="59530000" />
+      <workItem from="1682558194861" duration="99704000" />
     </task>
     <servers />
   </component>
@@ -229,6 +235,15 @@
           <url>file://$PROJECT_DIR$/src/ss1/thuc_hanh/ChiSoCanNang.java</url>
           <line>8</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/demoMVC3/view/Test.java</url>
+          <line>5</line>
+          <properties class="demoMVC3.view.Test" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

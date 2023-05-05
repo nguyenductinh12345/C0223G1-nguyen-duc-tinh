@@ -4,9 +4,6 @@ public class Customer extends Person {
     private String loaiKhach;
     private String diaChi;
 
-    public Customer() {
-    }
-
     public Customer(String loaiKhach, String diaChi) {
         this.loaiKhach = loaiKhach;
         this.diaChi = diaChi;
@@ -37,13 +34,14 @@ public class Customer extends Person {
 
     @Override
     public String toString() {
-        return "Customer{" +super.toString() +
+        return "Customer{" + super.toString() +
                 "loaiKhach='" + loaiKhach + '\'' +
                 ", diaChi='" + diaChi + '\'' +
                 '}';
     }
-    public String getintoCsv(){
-        return super.getMa()+","+super.getHoTen()+","+super.getNgaySinh()+","+super.getGioiTinh()+","+super.getSoCMND()+
-                ","+super.getSoDienThoai()+","+super.getEmail()+","+this.loaiKhach+","+this.diaChi;
+
+    public String getintoCsv() {
+        return super.getMa() + "," + super.getHoTen() + "," + super.getNgaySinh() + "," + super.getGioiTinh() + "," + super.getSoCMND() +
+                "," + super.getSoDienThoai() + "," + super.getEmail() + "," + this.loaiKhach + "," + this.diaChi;
     }
 }

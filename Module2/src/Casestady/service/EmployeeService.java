@@ -27,7 +27,7 @@ public class EmployeeService implements IEmployeeService {
             } catch (NumberFormatException e) {
                 System.err.println("Bạn nhập sai vui lòng nhập lại");
             }
-        } while (check==-1);
+        } while (check == -1);
         int choice = 0;
         do {
             System.out.println("Bạn muốn sửa thông tin nào ?\n" +
@@ -53,11 +53,11 @@ public class EmployeeService implements IEmployeeService {
                     do {
                         System.out.println("Vui lòng nhập mã mới");
                         editMa = scanner.nextLine();
-                        if (validete.employeeRegexMa(editMa)){
+                        if (validete.employeeRegexMa(editMa)) {
                             System.out.println("Sửa mã thành công");
                             employeeRepository.showList().get(check).setMa(editMa);
                             employeeRepository.editEmployee();
-                        }else {
+                        } else {
                             System.err.println("Mã mới nhập sai định dạng vui lòng nhập lại");
                         }
                     } while (!validete.employeeRegexMa(editMa));
@@ -67,28 +67,28 @@ public class EmployeeService implements IEmployeeService {
                     do {
                         System.out.println("Vui lòng nhập tên mới");
                         editTen = scanner.nextLine();
-                        if (validete.employeeRegexTen(editTen)){
+                        if (validete.regexTen(editTen)) {
                             System.out.println("Sửa tên thành công.");
                         }
                         System.err.println("Tên vừa nhập sai định dạng vui lòng nhập lại");
-                    }while (!validete.employeeRegexTen(editTen));
+                    } while (!validete.regexTen(editTen));
                     break;
                 case 3:
-                    String editNgaySinh="";
+                    String editNgaySinh = "";
                     do {
                         System.out.println("nhập ngày sinh mới.");
                         editNgaySinh = scanner.nextLine();
-                        if (validete.employeeTuoi(editNgaySinh)){
+                        if (validete.regextuoi(editNgaySinh)) {
                             System.out.println("Sửa ngày sinh thành công");
                             employeeRepository.showList().get(check).setNgaySinh(editNgaySinh);
                             employeeRepository.editEmployee();
-                        }else {
+                        } else {
                             System.err.println("Ngày sinh vừa nhập sai định dạng vui lòng nhập lại");
                         }
-                    }while (!validete.employeeTuoi(editNgaySinh));
+                    } while (!validete.regextuoi(editNgaySinh));
                     break;
                 case 4:
-                    String editGioiTinh="";
+                    String editGioiTinh = "";
                     int choiceGioiTinh = 0;
                     do {
                         System.out.println("Vui lòng lựa chọn giới tính mới:\n" +
@@ -96,11 +96,11 @@ public class EmployeeService implements IEmployeeService {
                                 "2.Nữ");
                         try {
                             choiceGioiTinh = Integer.parseInt(scanner.nextLine());
-                            if (choiceGioiTinh==1){
-                                editGioiTinh="Nam";
+                            if (choiceGioiTinh == 1) {
+                                editGioiTinh = "Nam";
                                 break;
-                            }else if (choiceGioiTinh==2){
-                                editGioiTinh="Nữ";
+                            } else if (choiceGioiTinh == 2) {
+                                editGioiTinh = "Nữ";
                                 break;
                             }
                         } catch (NumberFormatException e) {
@@ -108,34 +108,34 @@ public class EmployeeService implements IEmployeeService {
                         }
                         employeeRepository.showList().get(check).setGioiTinh(editGioiTinh);
                         employeeRepository.editEmployee();
-                    }while (true);
+                    } while (true);
                     break;
                 case 5:
-                    String editSoCMND="";
+                    String editSoCMND = "";
                     do {
                         System.out.println("Vui lòng nhập số CMND mới");
                         editSoCMND = scanner.nextLine();
-                        if (validete.employeeCmnd(editSoCMND)){
+                        if (validete.regexCmnd(editSoCMND)) {
                             System.out.println("Đã sửa số CMND thành công");
                             employeeRepository.showList().get(check).setSoCMND(editSoCMND);
                             employeeRepository.editEmployee();
                         }
                         System.err.println("Số CMND vừa nhập không chính xác vui lòng nhập lại");
 
-                    }while (!validete.employeeCmnd(editSoCMND));
+                    } while (!validete.regexCmnd(editSoCMND));
                     break;
                 case 6:
-                    String editSoDienThoai ="";
+                    String editSoDienThoai = "";
                     do {
                         System.out.println("Nhập số điên thoại mới");
                         editSoDienThoai = scanner.nextLine();
-                        if (validete.employeeSoDienThoai(editSoDienThoai)){
+                        if (validete.regexSoDienThoai(editSoDienThoai)) {
                             System.out.println("Sửa số điên thoại thành công");
                             employeeRepository.showList().get(check).setSoDienThoai(editSoDienThoai);
                             employeeRepository.editEmployee();
                         }
                         System.err.println("Số điên thoại bạn nhập không đúng vui lòng nhập lại");
-                    }while (!validete.employeeSoDienThoai(editSoDienThoai));
+                    } while (!validete.regexSoDienThoai(editSoDienThoai));
                     break;
                 case 7:
                     System.out.println("Vui lòng nhập email mới");
@@ -152,7 +152,7 @@ public class EmployeeService implements IEmployeeService {
                                 "3.Đại học\n" +
                                 "4.Sau đại học.");
                         int choiceTrinhDo = Integer.parseInt(scanner.nextLine());
-                        switch (choiceTrinhDo){
+                        switch (choiceTrinhDo) {
                             case 1:
                                 editTrinhDo = "Trung cấp";
                                 break;
@@ -169,7 +169,7 @@ public class EmployeeService implements IEmployeeService {
                                 System.err.println("Vui òng lựa chọn trong khoảng từ 1 đến 4");
                         }
                         break;
-                    }while (true);
+                    } while (true);
                     employeeRepository.showList().get(check).setTrinhDo(editTrinhDo);
                     employeeRepository.editEmployee();
                     break;
@@ -185,7 +185,7 @@ public class EmployeeService implements IEmployeeService {
                                 "6.Giám đốc.\n" +
                                 "Vui lòng lựa chọn trong khảng từ 1 đến 6");
                         int choiceViTri = Integer.parseInt(scanner.nextLine());
-                        switch (choiceViTri){
+                        switch (choiceViTri) {
                             case 1:
                                 editViTri = "Lễ tân";
                                 break;
@@ -209,7 +209,7 @@ public class EmployeeService implements IEmployeeService {
                                 break;
                         }
                         break;
-                    }while (true);
+                    } while (true);
                     employeeRepository.showList().get(check).setViTri(editViTri);
                     employeeRepository.editEmployee();
                     break;
@@ -218,9 +218,12 @@ public class EmployeeService implements IEmployeeService {
                     do {
                         System.out.println("Vui lòng nhập mức lương mới");
                         editLuong = Long.parseLong(scanner.nextLine());
+                        if (editLuong<=0){
+                            System.err.println("Lương phải lớn hơn 0");
+                        }else System.out.println("Đã sửa thành công");
                         employeeRepository.showList().get(check).setLuong(editLuong);
                         employeeRepository.editEmployee();
-                    }while (editLuong>0);
+                    } while (editLuong <= 0);
                     break;
                 case 11:
                     this.showList();
@@ -258,23 +261,23 @@ public class EmployeeService implements IEmployeeService {
         do {
             System.out.println("Vui lòng nhập họ tên nhân viên:");
             addHoTen = scanner.nextLine();
-            if (validete.employeeRegexTen(addHoTen)) {
+            if (validete.regexTen(addHoTen)) {
                 System.out.println(" Nhập tên thành công");
             } else {
                 System.err.println("Bạn đã nhập sai");
             }
-        } while (!validete.employeeRegexTen(addHoTen));
+        } while (!validete.regexTen(addHoTen));
         String addNgaySinh;
         do {
             System.out.println("Vui lòng nhập ngày sinh nhân viên\n" +
                     "theo dạng xxxx-xx-xx");
             addNgaySinh = scanner.nextLine();
-            if (validete.employeeTuoi(addNgaySinh)) {
+            if (validete.regextuoi(addNgaySinh)) {
                 System.out.println("Nhập ngày sinh thành công");
             } else {
                 System.err.println("Vui lòng nhập đúng ngày sing theo kiểu xxxx-xx-xx");
             }
-        } while (!validete.employeeTuoi(addNgaySinh));
+        } while (!validete.regextuoi(addNgaySinh));
 
 
         System.out.println("Vui lòng nhập giới tính nhân viên\n" +
@@ -293,26 +296,28 @@ public class EmployeeService implements IEmployeeService {
                 System.err.println("Vui lòng chọn 1 hoặc 2");
             }
         } while (true);
-        String addSoCMND;
+        String addSoCMND = "";
+        int check = 0;
         do {
             System.out.println("vui lòng nhập số CMND nhân viên mới");
             addSoCMND = scanner.nextLine();
-            if (validete.employeeCmnd(addSoCMND)) {
+            check = employeeRepository.timKiem(addSoCMND);
+            if (validete.regexCmnd(addSoCMND) && check == -1) {
                 System.out.println("Thêm số CMND thành công");
             } else {
-                System.err.println("Số chứng minh sai vui lòng nhập lại");
+                System.err.println("Số chứng minh sai hoặc đã tồn vui lòng nhập lại");
             }
-        } while (!validete.employeeCmnd(addSoCMND));
+        } while (!validete.regexCmnd(addSoCMND) || check != -1);
         String addSoDienThoai;
         do {
             System.out.println("vui lòng nhập số điện thoại nhân viên mới");
             addSoDienThoai = scanner.nextLine();
-            if (validete.employeeSoDienThoai(addSoDienThoai)) {
+            if (validete.regexSoDienThoai(addSoDienThoai)) {
                 System.out.println("Nhập số điện thoại thành công");
             } else {
                 System.err.println("Sai số điện thoại vui lòng hập lại");
             }
-        } while (!validete.employeeSoDienThoai(addSoDienThoai));
+        } while (!validete.regexSoDienThoai(addSoDienThoai));
 
 
         System.out.println("vui lòng nhập email nhân viên mới");

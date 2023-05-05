@@ -19,13 +19,8 @@ public class EmployeeController {
 
             try {
                 choice = Integer.parseInt(scanner.nextLine());
-                if (choice < 1 && choice > 4) {
-                    System.out.println("Vui lòng lựa chọn trong khoảng từ 1 đến 4");
-                }
-            } catch (NumberFormatException e) {
-                System.out.println("Vui lòng lựa chọn trong khoảng từ 1 đến 4");
             } catch (Exception e ){
-                System.out.println("Vui lòng lựa chọn trong khoảng từ 1 đến 4");
+                System.err.println("Vui lòng lựa chọn trong khoảng từ 1 đến 4");
             }
             switch (choice){
                 case 1:

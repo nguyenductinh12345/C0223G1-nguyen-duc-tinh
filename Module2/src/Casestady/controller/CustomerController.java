@@ -1,11 +1,14 @@
 package Casestady.controller;
 
+import Casestady.service.CustomerService;
+import Casestady.service.interfaceService.ICustomerService;
+
 import java.util.Scanner;
 
 public class CustomerController {
     Scanner scanner = new Scanner(System.in);
     int choice = 0;
-
+    CustomerService customerService = new CustomerService();
     public void displayCustomer() {
         do {
             System.out.println("1.Display list customers\n" +
@@ -16,20 +19,18 @@ public class CustomerController {
 
             try {
                 choice = Integer.parseInt(scanner.nextLine());
-                if (choice < 1 && choice > 4) {
-                    System.out.println("Vui lòng lựa chọn trong khoảng từ 1 đến 4");
-                }
-            } catch (NumberFormatException e) {
-                System.out.println("Vui lòng lựa chọn từ 1 đến 4");
             } catch (Exception e) {
                 System.out.println("Vui lòng lựa chọn từ 1 đến 4");
             }
-            switch (choice){
+            switch (choice) {
                 case 1:
+                    customerService.showCustomer();
                     break;
                 case 2:
+                    customerService.addCustomer();
                     break;
                 case 3:
+                    customerService.editCustomer();
                     break;
                 case 4:
                     break;

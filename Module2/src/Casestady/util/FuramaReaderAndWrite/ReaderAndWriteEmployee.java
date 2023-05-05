@@ -7,13 +7,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ReaderAndWriteEmployee {
-    public List<Employee> readFile (String fileName) {
+    public List<Employee> readFile(String fileName) {
         List<Employee> employees = new ArrayList<>();
         BufferedReader bufferedReader = null;
         try {
             bufferedReader = new BufferedReader(new FileReader(fileName));
             String line;
-            while ((line = bufferedReader.readLine()) != null) {
+            while ((line = bufferedReader.readLine()) != null && !line.equals("")) {
                 String[] arr = line.split(",");
                 employees.add(new Employee(arr[0], arr[1], arr[2], arr[3], arr[4], arr[5], arr[6], arr[7],
                         arr[8], Long.parseLong(arr[9])));
@@ -30,7 +30,8 @@ public class ReaderAndWriteEmployee {
 
         return employees;
     }
-    public void writeFile(String filename, List<Employee>lines) {
+
+    public void writeFile(String filename, List<Employee> lines) {
         BufferedWriter bufferedWriter = null;
         try {
             bufferedWriter = new BufferedWriter(new FileWriter(filename));
