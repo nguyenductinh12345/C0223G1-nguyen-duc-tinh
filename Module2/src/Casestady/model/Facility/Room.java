@@ -10,7 +10,8 @@ public class Room extends Facility {
         this.dichVuMienPhiDiKem = dichVuMienPhiDiKem;
     }
 
-    public Room(String maDichVu, String tenDichVU, String dienTichSuDung, String chiPhiThue, String soLuongNguoiToiDa, String kieuThue, String dichVuMienPhiDiKem) {
+    public Room(String maDichVu, String tenDichVU, double dienTichSuDung, double chiPhiThue, int soLuongNguoiToiDa,
+                String kieuThue, String dichVuMienPhiDiKem) {
         super(maDichVu, tenDichVU, dienTichSuDung, chiPhiThue, soLuongNguoiToiDa, kieuThue);
         this.dichVuMienPhiDiKem = dichVuMienPhiDiKem;
     }
@@ -25,8 +26,7 @@ public class Room extends Facility {
 
     @Override
     public String toString() {
-        return "Room{" +
-                "dichVuMienPhiDiKem='" + dichVuMienPhiDiKem + '\'' + super.toString() +
-                '}';
+        return "Room" +
+                " dichVuMienPhiDiKem = '" + dichVuMienPhiDiKem + '\'' + super.toString();
     }
 }

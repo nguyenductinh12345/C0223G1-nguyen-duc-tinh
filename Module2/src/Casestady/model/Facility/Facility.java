@@ -3,15 +3,15 @@ package Casestady.model.Facility;
 public abstract class Facility {
     private String maDichVu;
     private String tenDichVU;
-    private String dienTichSuDung;
-    private String chiPhiThue;
-    private String soLuongNguoiToiDa;
+    private double dienTichSuDung;
+    private double chiPhiThue;
+    private int soLuongNguoiToiDa;
     private String kieuThue;
 
     public Facility() {
     }
 
-    public Facility(String maDichVu, String tenDichVU, String dienTichSuDung, String chiPhiThue, String soLuongNguoiToiDa, String kieuThue) {
+    public Facility(String maDichVu, String tenDichVU, double dienTichSuDung, double chiPhiThue, int soLuongNguoiToiDa, String kieuThue) {
         this.maDichVu = maDichVu;
         this.tenDichVU = tenDichVU;
         this.dienTichSuDung = dienTichSuDung;
@@ -36,27 +36,27 @@ public abstract class Facility {
         this.tenDichVU = tenDichVU;
     }
 
-    public String getDienTichSuDung() {
+    public double getDienTichSuDung() {
         return dienTichSuDung;
     }
 
-    public void setDienTichSuDung(String dienTichSuDung) {
+    public void setDienTichSuDung(double dienTichSuDung) {
         this.dienTichSuDung = dienTichSuDung;
     }
 
-    public String getChiPhiThue() {
+    public double getChiPhiThue() {
         return chiPhiThue;
     }
 
-    public void setChiPhiThue(String chiPhiThue) {
+    public void setChiPhiThue(double chiPhiThue) {
         this.chiPhiThue = chiPhiThue;
     }
 
-    public String getSoLuongNguoiToiDa() {
+    public int getSoLuongNguoiToiDa() {
         return soLuongNguoiToiDa;
     }
 
-    public void setSoLuongNguoiToiDa(String soLuongNguoiToiDa) {
+    public void setSoLuongNguoiToiDa(int soLuongNguoiToiDa) {
         this.soLuongNguoiToiDa = soLuongNguoiToiDa;
     }
 
@@ -70,13 +70,13 @@ public abstract class Facility {
 
     @Override
     public String toString() {
-        return "DichVu{" +
-                "maDichVu=" + maDichVu +
-                ", tenDichVU='" + tenDichVU + '\'' +
-                ", dienTichSuDung=" + dienTichSuDung +
-                ", chiPhiThue=" + chiPhiThue +
-                ", soLuongNguoiToiDa=" + soLuongNguoiToiDa +
-                ", kieuThue='" + kieuThue + '\'' +
-                '}';
+        return "DichVu " +
+                " maDichVu = " + maDichVu +
+                ", tenDichVU = '" + tenDichVU + '\'' +
+                ", dienTichSuDung = " + dienTichSuDung +" m2"+
+                ", chiPhiThue = " + chiPhiThue +" triệu "+
+                ", soLuongNguoiToiDa = " + soLuongNguoiToiDa +" người"+
+                ", kieuThue = '" + kieuThue + '\'';
     }
+
 }

@@ -1,8 +1,11 @@
 package Casestady.controller;
 
+import Casestady.service.FacilityService;
+
 import java.util.Scanner;
 
 public class FacilityControllor {
+    FacilityService facilityService = new FacilityService();
     Scanner scanner = new Scanner(System.in);
     int choice = 0;
 
@@ -25,8 +28,10 @@ public class FacilityControllor {
             }
             switch (choice){
                 case 1:
+                    facilityService.displayFacility();
                     break;
                 case 2:
+                    facilityService.addNewFacility();
                     break;
                 case 3:
                     break;

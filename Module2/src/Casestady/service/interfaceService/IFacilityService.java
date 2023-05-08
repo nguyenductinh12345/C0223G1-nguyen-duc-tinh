@@ -1,5 +1,6 @@
 package Casestady.service.interfaceService;
 
-public interface IFacilityService extends IService {
+public interface IFacilityService{
     void displaymaintenance();
+    void addNewFacility();
 }
